@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-04-10 22:42:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2020-04-10 15:36:08 +0200"
@@ -308,6 +314,12 @@
   "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
     "criteria": {
       "has_light_blue_terracotta": "2020-04-10 16:02:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-04-10 22:46:53 +0200"
     },
     "done": true
   },
@@ -841,6 +853,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2020-04-10 16:18:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-04-10 22:47:14 +0200"
     },
     "done": true
   },
@@ -1832,6 +1850,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-04-10 17:29:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-04-10 22:42:36 +0200"
     },
     "done": true
   },
