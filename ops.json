@@ -12,12 +12,6 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "ca62a685-a224-3588-aebf-63f146f980af",
-    "name": "Yoopierre",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "e4d118ff-7000-46ca-aa3e-915dbdb0372b",
     "name": "CreepyAmateur",
     "level": 4,
@@ -38,12 +32,6 @@
   {
     "uuid": "c8f5aa26-86e0-4d47-a45e-504e1b0fd48c",
     "name": "ParmenLP01",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "8dacf9b3-c2be-3c28-9582-ed53c5f0a23c",
-    "name": "MydadfailNNN",
     "level": 4,
     "bypassesPlayerLimit": false
   },
