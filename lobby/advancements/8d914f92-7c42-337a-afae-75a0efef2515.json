@@ -1,0 +1,96 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-05-05 20:48:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2020-05-05 20:46:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2020-05-05 20:46:58 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_cod": "2020-05-05 20:49:47 +0200",
+      "rotten_flesh": "2020-05-05 20:48:51 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-05-05 20:46:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2020-05-05 20:45:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-05-05 20:46:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2020-05-05 20:46:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle_edge": "2020-05-05 20:49:14 +0200",
+      "minecraft:taiga": "2020-05-05 20:50:25 +0200",
+      "minecraft:jungle": "2020-05-05 20:46:27 +0200",
+      "minecraft:jungle_hills": "2020-05-05 20:46:06 +0200",
+      "minecraft:beach": "2020-05-05 20:53:11 +0200",
+      "minecraft:river": "2020-05-05 20:48:19 +0200",
+      "minecraft:lukewarm_ocean": "2020-05-05 20:58:07 +0200",
+      "minecraft:wooded_hills": "2020-05-05 20:49:58 +0200",
+      "minecraft:plains": "2020-05-05 20:45:37 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

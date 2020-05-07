@@ -1,169 +1,333 @@
-[12:31:36] [User Authenticator #4/WARN]: [LuckPerms] Processing login for Yoopierre took 1998ms.
-[12:31:37] [User Authenticator #4/INFO]: UUID of player Yoopierre is ca62a685-a224-3588-aebf-63f146f980af
-[12:31:44] [Server thread/INFO]: Yoopierre[/25.98.164.7:56200] logged in with entity id 5629 at ([survival_nether]-7.4763691282443805, 128.0, 30.506510824102246)
-[12:31:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7459ms or 149 ticks behind
-[12:32:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5330ms or 106 ticks behind
-[12:34:23] [Server thread/INFO]: CONSOLE issued server command: /list 
-[12:34:23] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
-[12:34:23] [Server thread/INFO]: [0;33;22mdefault[m: Pietro[m[0;37;1m[m
-[12:34:23] [Server thread/INFO]: Yoopierre issued server command: /home
-[12:34:27] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:45:34] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:56:10] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:56:17] [Server thread/INFO]: Yoopierre issued server command: /lobby
-[12:56:17] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobby'. Please double check your `worlds.yml` file configuration!
-[12:56:45] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'creative'. Please double check your `worlds.yml` file configuration!
-[13:10:08] [Server thread/INFO]: CONSOLE issued server command: /list 
-[13:10:08] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
-[13:10:08] [Server thread/INFO]: [0;33;22mdefault[m: Pietro[m[0;37;1m[m
-[13:11:10] [Server thread/INFO]: Yoopierre lost connection: Disconnected
-[13:11:10] [Server thread/INFO]: Yoopierre left the game
-[14:03:38] [Server thread/INFO]: CONSOLE issued server command: /list 
-[14:03:38] [Server thread/INFO]: [0;33;22mThere are [0;31;1m0[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
-[14:05:06] [User Authenticator #5/INFO]: UUID of player CreepyAmateur is 674b293b-d18f-3b6f-9413-476bd55d8b46
-[14:05:11] [Server thread/INFO]: CreepyAmateur[/0:0:0:0:0:0:0:1:4268] logged in with entity id 8992 at ([survival]261.921821024341, 11.0, 1220.9474801197005)
-[14:05:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5904ms or 118 ticks behind
-[14:17:41] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> 4 3360[m
-[14:17:43] [Server thread/INFO]: CreepyAmateur issued server command: /home
-[14:28:06] [Craft Scheduler Thread - 446/INFO]: [GadgetsMenu] [mChecking for updates...[m
-[14:28:07] [Craft Scheduler Thread - 446/INFO]: [GadgetsMenu] [mYou have an old version of the plugin. You are using [0;33;1m4.3.34[m, available version [0;33;1m4.3.35[m.  [0;36;1m[21m*MINOR UPDATE*[m
-[14:28:38] [Server thread/INFO]: CreepyAmateur lost connection: Disconnected
-[14:28:38] [Server thread/INFO]: CreepyAmateur left the game
-[14:36:40] [User Authenticator #6/INFO]: UUID of player CreepyAmateur is 674b293b-d18f-3b6f-9413-476bd55d8b46
-[14:36:40] [Server thread/INFO]: CreepyAmateur[/25.93.248.102:60112] logged in with entity id 14553 at ([survival]6.842040837170459, 63.0, 3372.3391484027984)
-[15:05:40] [Server thread/INFO]: CONSOLE issued server command: /list 
-[15:05:40] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
-[15:05:40] [Server thread/INFO]: [0;33;22mdefault[m: [0;31;22mVlados[m[0;37;1m[m
-[15:07:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5292ms or 105 ticks behind
-[15:12:11] [User Authenticator #7/INFO]: UUID of player mackcz is 3a0fa81c-1143-3f81-95ef-21d70b4c4b44
-[15:12:13] [Server thread/INFO]: mackcz[/127.0.0.1:6503] logged in with entity id 24030 at ([survival]-735.3293446122375, 71.0, -249.6075666912409)
-[15:12:14] [Server thread/WARN]: CreepyAmateur moved too quickly! -0.07131828441953303,0.0,-20.538896919898207
-[15:12:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6552ms or 131 ticks behind
-[15:12:18] [Async Chat Thread - #1/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> hello there[m
-[15:12:25] [Async Chat Thread - #1/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yeah[m
-[15:12:34] [Async Chat Thread - #1/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> long time no see[m
-[15:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
-[15:13:29] [Server thread/WARN]: CreepyAmateur moved too quickly! 4.669727001477156,3.023998832702631,8.637498122821057
-[15:16:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6094ms or 121 ticks behind
-[15:19:40] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> no[m
-[15:20:07] [Async Chat Thread - #2/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mVlados[m> follow me[m
-[15:20:11] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> KW[m
-[15:22:08] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> oh man[m
-[15:22:13] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> very epic indeed[m
-[15:22:33] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:22:38] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:22:56] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:23:09] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:23:31] [Server thread/WARN]: mackcz moved too quickly! 9.282194437974557,-0.07544406518948676,-9.066332119863432
-[15:23:43] [Server thread/WARN]: mackcz moved too quickly! 28.7723010608212,0.5162728621592692,-6.803381474160204
-[15:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13087ms or 261 ticks behind
-[15:24:05] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:07] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:11] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:12] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:13] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:13] [Server thread/INFO]: mackcz issued server command: /tppos
-[15:24:17] [Server thread/INFO]: mackcz issued server command: /tps
-[15:24:20] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:24] [Server thread/WARN]: CreepyAmateur moved wrongly!
-[15:24:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26886ms or 537 ticks behind
-[15:24:58] [Server thread/WARN]: CreepyAmateur moved too quickly! -3.2222392768413783,1.1893917542734371,9.478011395663657
-[15:25:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7606ms or 152 ticks behind
-[15:25:52] [Server thread/INFO]: mackcz issued server command: /home
-[15:26:04] [Server thread/INFO]: mackcz issued server command: /home
-[15:26:04] [Server thread/WARN]: mackcz moved too quickly! -3.831467472975646,0.0,-14.503298625340392
-[15:26:05] [Server thread/INFO]: mackcz issued server command: /tps
-[15:28:07] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> bout to go to the bakery[m
-[15:28:14] [Server thread/INFO]: mackcz lost connection: Disconnected
-[15:28:14] [Server thread/INFO]: mackcz left the game
-[15:28:14] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k have fun my child[m
-[15:29:07] [Server thread/INFO]: CreepyAmateur issued server command: /home
-[15:32:57] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[15:37:44] [Server thread/INFO]: CreepyAmateur issued server command: /home
-[15:39:24] [Server thread/INFO]: CreepyAmateur lost connection: Disconnected
-[15:39:24] [Server thread/INFO]: CreepyAmateur left the game
-[17:46:05] [User Authenticator #8/WARN]: [LuckPerms] Processing login for adam_skrr took 4795ms.
-[17:46:06] [User Authenticator #8/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
-[17:46:16] [Server thread/INFO]: adam_skrr[/25.130.9.170:55989] logged in with entity id 31642 at ([survival]-359.0075127315647, 65.0, -238.8292617279161)
-[17:46:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10555ms or 211 ticks behind
-[17:46:24] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[17:46:40] [Server thread/INFO]: CONSOLE issued server command: /list 
-[17:46:40] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
-[17:46:40] [Server thread/INFO]: [0;33;22mdefault[m: Filipuv_bratr[m[0;37;1m[m
-[17:47:32] [User Authenticator #9/INFO]: UUID of player mackcz is 3a0fa81c-1143-3f81-95ef-21d70b4c4b44
-[17:47:33] [Server thread/INFO]: mackcz[/127.0.0.1:33267] logged in with entity id 31891 at ([survival]-734.4092126446735, 71.0, -243.41557535410834)
-[17:49:32] [Server thread/INFO]: adam_skrr issued server command: /home
-[17:50:07] [Server thread/INFO]: mackcz issued server command: /home
-[17:50:07] [Server thread/WARN]: mackcz moved too quickly! 243.1931919822598,7.0,52.426686988661345
-[17:58:06] [User Authenticator #10/INFO]: UUID of player Yoopierre is ca62a685-a224-3588-aebf-63f146f980af
-[17:58:07] [Server thread/INFO]: Yoopierre[/25.98.164.7:58756] logged in with entity id 35156 at ([creative]-275.6400966408496, 51.0, -128.75872613940595)
-[17:58:52] [Server thread/INFO]: Yoopierre issued server command: /home
-[17:59:06] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[17:59:11] [Async Chat Thread - #5/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> hi[m
-[17:59:14] [Async Chat Thread - #5/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> helou[m
-[18:02:13] [Server thread/INFO]: adam_skrr issued server command: /home
-[18:07:06] [Server thread/INFO]: mackcz issued server command: /tp adam_skrr
-[18:09:02] [Server thread/INFO]: mackcz issued server command: /home
-[18:09:02] [Server thread/WARN]: mackcz moved too quickly! -382.3989394587585,7.0,-1.1634978453287204
-[18:09:38] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[18:11:18] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> petre jsi tu[m
-[18:11:25] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> nevim[m
-[18:12:49] [Server thread/INFO]: mackcz issued server command: /tp adam_skrr mackcz
-[18:20:15] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[18:21:25] [Server thread/INFO]: mackcz issued server command: /afk
-[18:21:41] [Async Chat Thread - #7/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> halo petre[m
-[18:21:47] [Async Chat Thread - #7/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> co[m
-[18:23:44] [Server thread/INFO]: mackcz lost connection: Disconnected
-[18:23:45] [Server thread/INFO]: mackcz left the game
-[18:23:47] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kde jsi[m
-[18:23:59] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> kde asi?[m
-[18:24:06] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> doma[m
-[18:24:10] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> yes[m
-[18:24:33] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> vi del jsi ty slepice to ja[m
-[18:24:40] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> dik[m
-[18:24:55] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> je tady pes kdyby si chtel[m
-[18:25:21] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> ja druhyho stratil[m
-[18:25:29] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> z[m
-[18:25:39] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> nechal jsem ho nikde sedet[m
-[18:26:40] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> mas tu eu mne vajca[m
-[18:26:54] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> nech si je ja mam dost[m
-[18:27:08] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ha[m
-[18:27:13] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> nevis[m
-[18:27:36] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> znic ten stone[m
-[18:27:46] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> okamžit?[m
-[18:28:08] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> ja ti dam 8 vajec[m
-[18:28:17] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> nechci[m
-[18:28:32] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> kdo je)[m
-[18:28:48] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> zazvon[m
-[18:28:50] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> pust mne[m
-[18:28:58] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> kdo je[m
-[18:29:10] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> kdo je venku?[m
-[18:29:19] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> ja[m
-[18:32:17] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> co dava endera man[m
-[18:32:24] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ender pearl[m
-[18:32:25] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[18:32:33] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ale mne nic nedal[m
-[18:32:39] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> skr[m
-[18:33:06] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ja jdu pro kravy[m
-[18:33:19] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> ja mam u mne tak cau[m
-[18:33:25] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> cus[m
-[18:33:25] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kravy[m
-[18:33:33] [Server thread/INFO]: adam_skrr issued server command: /home
-[18:33:37] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> yes[m
-[18:37:27] [Server thread/INFO]: adam_skrr has made the advancement [Enchanter]
-[18:37:57] [Async Chat Thread - #11/INFO]: [[0;37;1m[0;37;1m][m<Filipuv_bratr[m> hej mas stribro[m
-[18:38:03] [Async Chat Thread - #11/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> proc[m
-[18:38:07] [Server thread/INFO]: adam_skrr issued server command: /home
-[18:38:23] [Async Chat Thread - #11/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> protoze ja ti klidne dam ma 3 staky[m
-[18:38:31] [Async Chat Thread - #11/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> jidla mam dost[m
-[18:43:05] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> chces s necim pomoct[m
-[18:43:12] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[18:43:24] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> jo hledat diaman a tak[m
-[18:43:33] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> tak stim nemuzu[m
-[18:43:40] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> proc[m
-[18:44:01] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> chci vyrobirt knihu na enchant[m
-[18:44:48] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> jsem u zusky[m
-[18:46:20] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> tak co[m
-[18:46:26] [Server thread/INFO]: adam_skrr issued server command: /home
-[18:46:32] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> to musis najit sam[m
-[18:47:00] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> pslal jsem ti psa)[m
+[08:23:04] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[08:25:05] [Server thread/INFO]: CreepyAmateur lost connection: Disconnected
+[08:25:06] [Server thread/INFO]: CreepyAmateur left the game
+[08:52:46] [Server thread/INFO]: mackcz lost connection: Disconnected
+[08:52:46] [Server thread/INFO]: mackcz left the game
+[09:31:37] [User Authenticator #4/INFO]: UUID of player CreepyAmateur is 674b293b-d18f-3b6f-9413-476bd55d8b46
+[09:31:41] [Server thread/INFO]: CreepyAmateur[/25.93.248.102:63555] logged in with entity id 141695 at ([survival]272.50000569505187, 79.0, 987.2449575169671)
+[09:34:01] [User Authenticator #5/INFO]: UUID of player mackcz is 3a0fa81c-1143-3f81-95ef-21d70b4c4b44
+[09:34:02] [Server thread/INFO]: mackcz[/127.0.0.1:19108] logged in with entity id 142262 at ([survival]-749.4586285746741, 71.0, -246.79415228197794)
+[09:35:48] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> im here[m
+[09:36:14] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> shit sry ure naked[m
+[09:36:18] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> ye[m
+[09:36:53] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> this nigga trying to rape u[m
+[09:37:30] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> ur still naked[m
+[09:38:44] [Async Chat Thread - #1/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> can i build[m
+[09:39:25] [Async Chat Thread - #1/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k imma build wether u like it or not[m
+[09:42:17] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> hey yees[m
+[09:42:31] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> no[m
+[09:42:35] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> theres the windows[m
+[09:42:50] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> sry[m
+[09:42:58] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> nah[m
+[09:43:25] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k so how should i build the walls[m
+[09:43:33] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> 5 blocks tall[m
+[09:43:39] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> i have no further idea[m
+[09:43:42] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> any ideas?[m
+[09:43:45] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k but like holes for windows?[m
+[09:43:52] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yeah im not really surwe[m
+[09:43:58] [Async Chat Thread - #2/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k lol[m
+[09:44:59] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> like[m
+[09:45:09] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> we could do the windows this way[m
+[09:45:31] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> hmmm yes[m
+[09:45:39] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> on each side?[m
+[09:45:42] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> ye[m
+[09:45:49] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k do it lol[m
+[09:46:25] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> need sand[m
+[09:46:36] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k imma get sand[m
+[09:46:42] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[09:47:03] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> do u want to put coloured glass there?[m
+[09:47:10] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> like idc tbh[m
+[09:47:17] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> like white glass[m
+[09:47:20] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> sure[m
+[09:47:31] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k we need white dye[m
+[09:47:31] [Server thread/INFO]: mackcz issued server command: /home
+[09:48:49] [Server thread/INFO]: mackcz issued server command: /home
+[09:50:10] [Server thread/INFO]: mackcz issued server command: /home
+[09:50:22] [Server thread/INFO]: mackcz issued server command: /home
+[09:50:22] [Server thread/WARN]: mackcz moved too quickly! -38.67071124117638,65.0,1.320397496359874
+[09:50:43] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yees[m
+[09:50:47] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> thats from bone meal[m
+[09:50:57] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> hmm yes[m
+[09:50:58] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> right?[m
+[09:51:00] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> good[m
+[09:51:01] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> good[m
+[09:51:03] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> fuck[m
+[09:51:05] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> good[m
+[09:51:08] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> aaaaa[m
+[09:51:11] [Server thread/INFO]: mackcz issued server command: /home
+[09:51:11] [Server thread/WARN]: mackcz moved too quickly! -15.283535077490342,-26.0,-8.458125913220215
+[09:51:12] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> u fucked up again ahaha[m
+[09:51:19] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> u hav bone meal[m
+[09:52:08] [Server thread/INFO]: mackcz issued server command: /home
+[09:52:08] [Server thread/WARN]: mackcz moved too quickly! -37.93385874587818,65.0,-3.674610760665246
+[09:52:09] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yes[m
+[09:52:16] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> good[m
+[09:52:44] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> com to my farm[m
+[09:52:45] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> rn[m
+[09:52:49] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> and hilp me[m
+[09:52:59] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> cant[m
+[09:53:02] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> smelting[m
+[09:53:11] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> sure[m
+[09:53:15] [Async Chat Thread - #4/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> is it urgent[m
+[09:56:33] [Async Chat Thread - #5/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> no[m
+[09:56:41] [Async Chat Thread - #5/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k[m
+[09:56:46] [Async Chat Thread - #5/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> i got about 70 dye[m
+[09:59:27] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[10:01:00] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> k im cumming with glass[m
+[10:01:05] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yeees[m
+[10:01:13] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> i got wood[m
+[10:01:16] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> for some reason[m
+[10:01:33] [Async Chat Thread - #6/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mVlados[m> of course u got[m
+[10:02:17] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> less go[m
+[10:02:20] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yee[m
+[10:02:49] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> i see the llama[m
+[10:02:55] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> it escaped[m
+[10:02:58] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> cum here[m
+[10:03:14] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> oh man[m
+[10:03:15] [Async Chat Thread - #6/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> ye[m
+[10:04:17] [Server thread/INFO]: mackcz issued server command: /home
+[10:04:17] [Server thread/WARN]: mackcz moved too quickly! -14.10098043927917,-27.0,-8.99561546728873
+[10:05:11] [Async Chat Thread - #7/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> hay[m
+[10:05:23] [Async Chat Thread - #7/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> got white glass[m
+[10:05:26] [Async Chat Thread - #7/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> yes[m
+[10:06:32] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> hmm[m
+[10:06:37] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> well need glowstone too[m
+[10:06:40] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> hmmm[m
+[10:06:44] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> i got some[m
+[10:06:45] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> like i got some[m
+[10:06:48] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> oh man[m
+[10:06:52] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> lol[m
+[10:06:52] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> we wrote the same thing[m
+[10:06:54] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> yee[m
+[10:06:59] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> less get it rn[m
+[10:06:59] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> imma get it[m
+[10:07:02] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[10:07:04] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> lol[m
+[10:07:09] [Server thread/INFO]: mackcz issued server command: /home
+[10:07:09] [Server thread/WARN]: mackcz moved too quickly! -9.9542639558382,-31.0,-6.4219931745766985
+[10:07:09] [Server thread/WARN]: mackcz moved too quickly! -9.9542639558382,-31.0,-6.4219931745766985
+[10:07:12] [Async Chat Thread - #8/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> i got 20[m
+[10:08:18] [Server thread/INFO]: mackcz issued server command: /home
+[10:08:18] [Server thread/WARN]: mackcz moved too quickly! -26.963244059938006,65.0,0.5382093472881593
+[10:09:52] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> what pattern are we going to do[m
+[10:10:00] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> design rn[m
+[10:10:03] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> lets draw a penis[m
+[10:10:07] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> good idea[m
+[10:10:55] [Async Chat Thread - #9/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> i just got the perfect idea[m
+[10:12:00] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> we could use one floor as a mob farm[m
+[10:12:05] [Async Chat Thread - #10/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> lmao ye[m
+[10:12:46] [Server thread/INFO]: mackcz issued server command: /afk
+[10:24:54] [Server thread/INFO]: mackcz issued server command: /home
+[10:24:54] [Server thread/WARN]: mackcz moved too quickly! -14.262499988079071,-31.0,-6.764374102463961
+[10:24:54] [Server thread/WARN]: mackcz moved too quickly! -14.262499988079071,-31.0,-6.764374102463961
+[10:25:02] [User Authenticator #6/INFO]: UUID of player KenoKing93 is 69b8257c-d99a-3048-913f-0db4cbcb8101
+[10:25:03] [Server thread/INFO]: KenoKing93[/0:0:0:0:0:0:0:1:23200] logged in with entity id 153136 at ([survival]-699.4631081913009, 87.0, -243.35553903921357)
+[10:25:40] [Server thread/INFO]: mackcz issued server command: /home
+[10:34:22] [Server thread/WARN]: KenoKing93 moved wrongly!
+[10:36:45] [Server thread/INFO]: mackcz issued server command: /healthbar CreepyAmateur
+[10:36:48] [Server thread/INFO]: mackcz issued server command: /healthbar
+[10:36:53] [Server thread/INFO]: mackcz issued server command: /hbr help
+[10:36:58] [Server thread/INFO]: mackcz issued server command: /hbr reload
+[10:37:12] [Server thread/INFO]: mackcz issued server command: /hbr reload
+[10:43:33] [Server thread/INFO]: KenoKing93 issued server command: /home
+[10:45:55] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[10:46:15] [Server thread/INFO]: mackcz issued server command: /home
+[10:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44572ms or 891 ticks behind
+[10:48:37] [User Authenticator #7/INFO]: UUID of player mackcz is 3a0fa81c-1143-3f81-95ef-21d70b4c4b44
+[10:48:37] [User Authenticator #8/INFO]: UUID of player KenoKing93 is 69b8257c-d99a-3048-913f-0db4cbcb8101
+[10:48:37] [User Authenticator #9/INFO]: UUID of player CreepyAmateur is 674b293b-d18f-3b6f-9413-476bd55d8b46
+[10:48:37] [Server thread/INFO]: CreepyAmateur lost connection: Timed out
+[10:48:37] [Server thread/INFO]: CreepyAmateur left the game
+[10:48:37] [Server thread/INFO]: mackcz lost connection: Disconnected
+[10:48:37] [Server thread/INFO]: mackcz left the game
+[10:48:37] [Server thread/INFO]: KenoKing93 lost connection: Disconnected
+[10:48:37] [Server thread/INFO]: KenoKing93 left the game
+[10:48:38] [Server thread/INFO]: mackcz[/127.0.0.1:23362] logged in with entity id 157928 at ([survival]272.75918898330497, 79.0, 987.5429622950908)
+[10:48:38] [Server thread/INFO]: KenoKing93[/0:0:0:0:0:0:0:1:23366] logged in with entity id 157929 at ([survival]-724.2451653244586, 119.03584062504456, -234.14561177751625)
+[10:48:39] [Server thread/INFO]: CreepyAmateur[/25.93.248.102:63927] logged in with entity id 157930 at ([survival_nether]17.64162189763215, 73.0, 237.3499594714657)
+[10:49:03] [Server thread/INFO]: KenoKing93 lost connection: Timed out
+[10:49:03] [Server thread/INFO]: KenoKing93 left the game
+[10:51:32] [User Authenticator #10/INFO]: UUID of player KenoKing93 is 69b8257c-d99a-3048-913f-0db4cbcb8101
+[10:51:32] [Server thread/INFO]: KenoKing93[/0:0:0:0:0:0:0:1:23467] logged in with entity id 159834 at ([survival]-727.2890206079724, 103.5, -237.86797150591724)
+[10:54:10] [Server thread/INFO]: KenoKing93 was shot by Skeleton
+[10:54:49] [Async Chat Thread - #11/INFO]: [[0;37;1msurvival[0;37;1m][m<KenoKing93[m> home[m
+[10:55:17] [Server thread/INFO]: KenoKing93 issued server command: /home
+[10:55:42] [Server thread/INFO]: KenoKing93 lost connection: Timed out
+[10:55:42] [Server thread/INFO]: KenoKing93 left the game
+[10:55:48] [User Authenticator #11/INFO]: UUID of player KenoKing93 is 69b8257c-d99a-3048-913f-0db4cbcb8101
+[10:55:49] [Server thread/INFO]: KenoKing93[/0:0:0:0:0:0:0:1:23630] logged in with entity id 161977 at ([survival]-703.5, 87.0, -243.5)
+[10:56:30] [Server thread/INFO]: KenoKing93 has made the advancement [Acquire Hardware]
+[11:00:50] [Server thread/INFO]: KenoKing93 was slain by ?                  
+[11:01:45] [Server thread/INFO]: KenoKing93 issued server command: /home
+[11:02:41] [Server thread/INFO]: KenoKing93 has made the advancement [Monster Hunter]
+[11:03:52] [Server thread/INFO]: KenoKing93 lost connection: Disconnected
+[11:03:52] [Server thread/INFO]: KenoKing93 left the game
+[11:09:13] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[11:10:43] [Server thread/INFO]: mackcz issued server command: /home
+[11:23:37] [User Authenticator #12/INFO]: UUID of player Yoopierre is ca62a685-a224-3588-aebf-63f146f980af
+[11:23:38] [Server thread/INFO]: Yoopierre[/25.98.164.7:56930] logged in with entity id 168902 at ([survival]-593.2613369071108, 73.0, -243.30000001192093)
+[11:25:20] [Server thread/INFO]: Yoopierre issued server command: /home
+[11:26:43] [Server thread/INFO]: mackcz issued server command: /home
+[11:26:43] [Server thread/WARN]: mackcz moved too quickly! -28.28713071434936,65.0,-0.36644671812737784
+[11:26:45] [Server thread/INFO]: Yoopierre lost connection: Disconnected
+[11:26:45] [Server thread/INFO]: Yoopierre left the game
+[11:30:38] [User Authenticator #13/INFO]: UUID of player Yoopierre is ca62a685-a224-3588-aebf-63f146f980af
+[11:30:38] [Server thread/INFO]: Yoopierre[/25.98.164.7:56945] logged in with entity id 170402 at ([survival]-1055.1758503466742, 80.0, -328.40287525870673)
+[11:32:35] [Server thread/INFO]: Yoopierre issued server command: /home
+[11:32:35] [Server thread/WARN]: Yoopierre moved too quickly! 74.84822121500929,-16.0,36.980533078537974
+[11:33:39] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[11:34:55] [Server thread/INFO]: Yoopierre issued server command: /home
+[11:34:55] [Server thread/WARN]: Yoopierre moved too quickly! 88.17123841082616,-16.0,36.80000001192093
+[11:45:21] [Server thread/INFO]: Yoopierre issued server command: /home
+[11:45:46] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[11:51:00] [User Authenticator #14/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[11:51:05] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:52050] logged in with entity id 174855 at ([lobby]135.7978034822874, 14.381771532897147, 100.102338565612)
+[11:51:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5163ms or 103 ticks behind
+[11:51:19] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobby'. Please double check your `worlds.yml` file configuration!
+[11:51:19] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobbyp'. Please double check your `worlds.yml` file configuration!
+[11:51:29] [Server thread/WARN]: MydadfailNNN moved too quickly! -0.012910526699618785,6.371645194229899,-8.010385707072828
+[11:51:33] [Server thread/INFO]: MydadfailNNN issued server command: /lobby
+[11:51:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[11:52:16] [Server thread/INFO]: CreepyAmateur issued server command: /whereami MydadfailNNN
+[11:52:22] [Server thread/INFO]: Yoopierre issued server command: /lobby
+[11:52:27] [Server thread/WARN]: Yoopierre moved too quickly! -0.41244204282324404,-1.001335979112147,10.20006832850899
+[11:52:45] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:46] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:47] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:48] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:49] [Server thread/INFO]: MydadfailNNN was slain by Yoopierre using 
+[11:52:49] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:51] [Server thread/INFO]: mackcz issued server command: /whereami MydadfailNNN
+[11:52:54] [Async Chat Thread - #12/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> lmao[m
+[11:53:28] [User Authenticator #15/INFO]: UUID of player zuziana is f7d99fd6-d9f5-3801-9977-be6918d09797
+[11:53:29] [Server thread/INFO]: zuziana[/0:0:0:0:0:0:0:1:27188] logged in with entity id 175543 at ([survival]-727.5, 82.0, -241.5)
+[11:55:09] [Server thread/INFO]: zuziana issued server command: /home
+[11:56:06] [Server thread/WARN]: MydadfailNNN moved too quickly! -9.627819562533318,-2.979320457333287,1.2516566475516129
+[11:56:10] [Server thread/INFO]: mackcz issued server command: /tps
+[11:56:29] [Server thread/INFO]: zuziana issued server command: /home
+[11:56:32] [Server thread/INFO]: [0;33;22mzuziana[m[m just went to bed, needing [0;33;22m1[m more players to join them[m
+[11:56:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5253ms or 105 ticks behind
+[11:56:46] [User Authenticator #16/INFO]: UUID of player Yourdentist174 is a5ae81df-3e32-3296-bdcb-584bfd91c9e0
+[11:56:48] [Server thread/INFO]: Yourdentist174[/25.133.198.106:55828] logged in with entity id 176619 at ([survival]-462.47004341105, 79.0, -189.45002651440294)
+[11:56:48] [Server thread/WARN]: MydadfailNNN moved too quickly! -8.994914437145667,-2.024424088213692,5.996680488369634
+[11:57:13] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[11:57:13] [Server thread/INFO]: MydadfailNNN has made the advancement [Sweet Dreams]
+[11:57:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11672ms or 233 ticks behind
+[11:58:11] [Server thread/INFO]: MydadfailNNN died
+[11:58:17] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> lmao[m
+[11:58:44] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<zuziana[m> co se stane když sko?ím na mrak?[m
+[11:58:50] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> wow[m
+[11:58:51] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<Alwin[m> try it[m
+[11:58:51] [Async Chat Thread - #13/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> za?neš lítat[m
+[11:59:26] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[11:59:27] [Server thread/INFO]: MydadfailNNN left the game
+[12:00:20] [Async Chat Thread - #14/INFO]: [[0;37;1msurvival[0;37;1m][m<zuziana[m> tak bye bye[m
+[12:00:25] [Async Chat Thread - #14/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mFilip[m> bye[m
+[12:00:27] [Server thread/INFO]: zuziana fell from a high place
+[12:00:31] [Async Chat Thread - #14/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> lmao[m
+[12:00:59] [Server thread/INFO]: mackcz issued server command: /home
+[12:00:59] [Server thread/WARN]: mackcz moved too quickly! -9.784634910118712,-4.0,-21.583781171659297
+[12:01:29] [User Authenticator #17/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[12:01:29] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:52200] logged in with entity id 178432 at ([survival]-1017.6200499139071, 72.0, -310.8169977836462)
+[12:02:24] [Server thread/INFO]: Yoopierre issued server command: /home
+[12:02:24] [Server thread/WARN]: Yoopierre moved too quickly! 0.8963462392159727,13.0,5.615974431068992
+[12:02:25] [Server thread/INFO]: MydadfailNNN tried to swim in lava
+[12:02:48] [Server thread/INFO]: MydadfailNNN tried to swim in lava
+[12:03:28] [Server thread/INFO]: MydadfailNNN fell from a high place
+[12:05:14] [Server thread/INFO]: MydadfailNNN drowned
+[12:07:15] [Server thread/INFO]: MydadfailNNN was slain by Yoopierre using 
+[12:07:51] [Server thread/INFO]: MydadfailNNN tried to swim in lava
+[12:08:05] [Server thread/INFO]: zuziana issued server command: /home
+[12:08:07] [Server thread/INFO]: [0;33;22mzuziana[m[m just went to bed, needing [0;33;22m1[m more players to join them[m
+[12:08:16] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:08:31] [Server thread/INFO]: Yoopierre issued server command: /home
+[12:08:41] [Server thread/INFO]: zuziana lost connection: Disconnected
+[12:08:41] [Server thread/INFO]: zuziana left the game
+[12:09:10] [Server thread/INFO]: MydadfailNNN was slain by Yoopierre using 
+[12:10:03] [Server thread/INFO]: MydadfailNNN tried to swim in lava
+[12:11:23] [Server thread/INFO]: MydadfailNNN has made the advancement [Hot Stuff]
+[12:13:52] [Async Chat Thread - #15/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> vlado kde jsi?[m
+[12:14:01] [Async Chat Thread - #15/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> pro?[m
+[12:14:10] [Async Chat Thread - #15/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ja ti chci neco ukazat[m
+[12:14:28] [Async Chat Thread - #15/INFO]: [[0;37;1msurvival[0;37;1m][m<[0;31;22mVlados[m> u Filipa naho?e[m
+[12:16:02] [Async Chat Thread - #16/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> cau[m
+[12:16:44] [Server thread/INFO]: MydadfailNNN was slain by CreepyAmateur using 
+[12:16:51] [User Authenticator #18/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
+[12:16:52] [Server thread/INFO]: adam_skrr[/25.130.9.170:51911] logged in with entity id 183593 at ([survival]-972.5623962754127, 68.0, -288.5392994552402)
+[12:17:12] [Server thread/INFO]: adam_skrr issued server command: /jhome
+[12:17:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5075ms or 101 ticks behind
+[12:17:16] [Server thread/INFO]: adam_skrr issued server command: /home
+[12:17:16] [Server thread/INFO]: Yoopierre issued server command: /home
+[12:17:23] [Server thread/INFO]: Yoopierre was burned to death
+[12:17:33] [Server thread/INFO]: Yoopierre issued server command: /home
+[12:19:09] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[12:19:13] [Server thread/WARN]: MydadfailNNN moved too quickly! -0.15550835315468703,10.0,0.11060672873452404
+[12:19:13] [Server thread/WARN]: mackcz moved too quickly! 0.015165939321263977,10.0,0.566954223112333
+[12:19:13] [Server thread/WARN]: Yoopierre moved too quickly! 9.075239801627163,5.0,-4.829876580954448
+[12:19:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5129ms or 102 ticks behind
+[12:20:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15059ms or 301 ticks behind
+[12:20:17] [Server thread/INFO]: mackcz issued server command: /home
+[12:20:33] [Server thread/INFO]: [0;33;22m[0;31;22mVlados[m[m just went to bed, needing [0;33;22m1[m more players to join them[m
+[12:20:36] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:20:36] [Server thread/INFO]: Yourdentist174 drowned
+[12:20:56] [Server thread/INFO]: Yoopierre was slain by mackcz using 
+[12:21:01] [Async Chat Thread - #17/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> najednou[m
+[12:21:32] [Server thread/INFO]: MydadfailNNN suffucated in a wall
+[12:21:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5863ms or 117 ticks behind
+[12:21:53] [Server thread/WARN]: adam_skrr moved too quickly! -13.170051466150198,0.5800000131130219,0.2967673682017846
+[12:23:07] [Async Chat Thread - #18/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> dik filipe[m
+[12:23:25] [Async Chat Thread - #18/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> fili co to je za barak[m
+[12:24:12] [Server thread/INFO]: mackcz issued server command: /home
+[12:24:12] [Server thread/WARN]: mackcz moved too quickly! 35.50390316328128,0.0,-89.80000001192093
+[12:24:41] [Server thread/INFO]: Yourdentist174 lost connection: Disconnected
+[12:24:41] [Server thread/INFO]: Yourdentist174 left the game
+[12:25:39] [User Authenticator #19/INFO]: UUID of player zuziana is f7d99fd6-d9f5-3801-9977-be6918d09797
+[12:25:39] [Server thread/INFO]: zuziana[/0:0:0:0:0:0:0:1:28728] logged in with entity id 188507 at ([survival]-729.700000025332, 82.0000002, -242.70000002533197)
+[12:26:20] [Server thread/INFO]: adam_skrr tried to swim in lava
+[12:26:30] [Async Chat Thread - #19/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> lol[m
+[12:26:40] [Async Chat Thread - #19/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> tvl kde oto udelal[m
+[12:26:53] [Server thread/WARN]: adam_skrr moved too quickly! -9.994350913949518,1.2247629905309907,-1.021147539594864
+[12:27:07] [Server thread/INFO]: mackcz issued server command: /afk
+[12:28:42] [Server thread/INFO]: CreepyAmateur issued server command: /home
+[12:28:51] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kde to byl[m
+[12:28:53] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> adame chces dt fort[m
+[12:29:02] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> ct o[m
+[12:29:06] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> hhhhhhrrrrrrrrrrrrrrrrr[m
+[12:29:11] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kdo to byl[m
+[12:29:15] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> adame chces dt fort[m
+[12:29:21] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> co to je[m
+[12:29:21] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> creativ\,[m
+[12:29:30] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> jo[m
+[12:29:32] [Server thread/INFO]: CreepyAmateur issued server command: /afk
+[12:29:38] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> tak pojd[m
+[12:29:40] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kde oto byl[m
+[12:30:10] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> ptam sae kdo to byl[m
+[12:30:46] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Pietro[m> pojd creativ[m
+[12:30:47] [Server thread/INFO]: Yoopierre lost connection: Disconnected
+[12:30:47] [Server thread/INFO]: Yoopierre left the game
+[12:31:08] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[12:31:08] [Server thread/INFO]: MydadfailNNN left the game
+[12:31:28] [Server thread/INFO]: adam_skrr issued server command: /home
+[12:31:28] [Server thread/WARN]: adam_skrr moved too quickly! 378.89285470111486,-6.0,14.53186182932393
+[12:31:33] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> filipe[m
+[12:31:37] [Async Chat Thread - #20/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> tvl[m
+[12:31:43] [Server thread/INFO]: zuziana issued server command: /home
+[12:31:44] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:31:49] [Server thread/INFO]: mackcz issued server command: /burn adam_skrr 1
+[12:31:58] [Server thread/INFO]: mackcz lost connection: Disconnected
+[12:31:58] [Server thread/INFO]: mackcz left the game
+[12:32:04] [Server thread/INFO]: zuziana lost connection: Disconnected
+[12:32:04] [Server thread/INFO]: zuziana left the game
+[12:32:44] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m*20.0, [0;32;1m19.95, [0;32;1m19.92[m
+[12:35:47] [Server thread/INFO]: adam_skrr lost connection: Disconnected
+[12:35:47] [Server thread/INFO]: adam_skrr left the game
+[13:12:33] [Server thread/INFO]: CreepyAmateur lost connection: Disconnected
+[13:12:33] [Server thread/INFO]: CreepyAmateur left the game
+[13:16:02] [User Authenticator #20/INFO]: UUID of player zuziana is f7d99fd6-d9f5-3801-9977-be6918d09797
+[13:16:03] [Server thread/INFO]: zuziana[/0:0:0:0:0:0:0:1:31769] logged in with entity id 197762 at ([survival]-736.4843413176641, 71.0, -247.7404476530681)
+[13:16:09] [Server thread/INFO]: zuziana lost connection: Disconnected
+[13:16:09] [Server thread/INFO]: zuziana left the game
+[13:29:23] [User Authenticator #21/INFO]: UUID of player CreepyAmateur is 674b293b-d18f-3b6f-9413-476bd55d8b46
+[13:29:24] [Server thread/INFO]: CreepyAmateur[/25.93.248.102:65057] logged in with entity id 197921 at ([survival]230.30000001192093, 59.0, 978.3000000119209)
+[13:29:53] [Server thread/INFO]: CreepyAmateur lost connection: Disconnected
+[13:29:53] [Server thread/INFO]: CreepyAmateur left the game
