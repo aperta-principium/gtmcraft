@@ -485,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2020-05-11 16:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-04-14 19:24:28 +0200"
@@ -648,8 +654,10 @@
       "minecraft:skeleton": "2020-04-14 15:15:07 +0200",
       "minecraft:zombie_pigman": "2020-04-22 14:05:51 +0200",
       "minecraft:ghast": "2020-05-01 13:44:18 +0200",
+      "minecraft:magma_cube": "2020-05-11 16:13:37 +0200",
       "minecraft:spider": "2020-04-15 20:54:38 +0200",
       "minecraft:creeper": "2020-04-15 16:24:20 +0200",
+      "minecraft:wither_skeleton": "2020-05-11 16:13:34 +0200",
       "minecraft:cave_spider": "2020-04-14 16:47:56 +0200",
       "minecraft:silverfish": "2020-04-29 11:57:09 +0200",
       "minecraft:enderman": "2020-04-29 12:56:56 +0200",
@@ -1004,6 +1012,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2020-04-13 20:27:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2020-05-10 19:47:00 +0200"
     },
     "done": true
   },

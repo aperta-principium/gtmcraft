@@ -1140,6 +1140,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2020-05-10 21:16:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2020-04-14 19:54:04 +0200"
@@ -2371,6 +2377,7 @@
       "bread": "2020-04-14 19:35:53 +0200",
       "golden_apple": "2020-04-23 15:22:12 +0200",
       "rotten_flesh": "2020-04-14 19:08:01 +0200",
+      "cookie": "2020-05-08 01:07:18 +0200",
       "melon_slice": "2020-04-14 20:02:29 +0200",
       "golden_carrot": "2020-04-18 13:23:37 +0200",
       "cooked_chicken": "2020-04-14 19:20:48 +0200",
