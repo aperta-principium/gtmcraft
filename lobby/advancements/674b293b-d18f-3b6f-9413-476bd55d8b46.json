@@ -614,6 +614,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2020-05-11 22:13:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2020-04-12 18:36:31 +0200"
@@ -1164,6 +1170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2020-05-11 22:14:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2020-04-14 19:50:48 +0200"
@@ -1596,6 +1608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2020-05-11 19:25:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2020-04-14 20:05:03 +0200"
@@ -1704,6 +1722,12 @@
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2020-04-14 16:36:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2020-05-11 22:14:01 +0200"
     },
     "done": true
   },
@@ -2043,6 +2067,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_bed": {
+    "criteria": {
+      "has_green_wool": "2020-05-11 19:25:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2020-05-11 19:34:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2020-04-14 22:21:23 +0200"
@@ -2070,6 +2106,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2020-04-14 21:43:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2020-05-11 19:34:01 +0200"
     },
     "done": true
   },
@@ -2371,6 +2413,7 @@
       "baked_potato": "2020-04-21 22:36:15 +0200",
       "tropical_fish": "2020-04-23 08:26:38 +0200",
       "apple": "2020-04-14 19:05:53 +0200",
+      "potato": "2020-05-11 22:24:12 +0200",
       "cooked_cod": "2020-04-15 20:29:36 +0200",
       "pumpkin_pie": "2020-04-18 13:30:43 +0200",
       "mutton": "2020-04-16 14:52:13 +0200",
@@ -2535,6 +2578,12 @@
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2020-04-14 19:59:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2020-05-11 19:34:01 +0200"
     },
     "done": true
   },
@@ -3007,6 +3056,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2020-05-11 19:25:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2020-04-14 20:01:24 +0200"
@@ -3016,6 +3071,12 @@
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2020-04-15 19:17:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2020-05-11 22:14:01 +0200"
     },
     "done": true
   },

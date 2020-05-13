@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-05-11 21:18:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-04-21 23:14:13 +0200"
@@ -194,6 +200,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting": {
     "criteria": {
       "has_gold_ore": "2020-04-21 23:42:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2020-05-11 21:34:19 +0200"
     },
     "done": true
   },
@@ -350,6 +362,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2020-04-21 23:07:48 +0200",
+      "bread": "2020-05-11 21:25:13 +0200",
+      "cooked_chicken": "2020-05-11 21:18:37 +0200",
       "mushroom_stew": "2020-05-10 22:29:59 +0200",
       "carrot": "2020-04-21 23:25:45 +0200"
     },
@@ -388,6 +402,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2020-04-22 21:58:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_log": "2020-05-11 21:34:19 +0200"
     },
     "done": true
   },
@@ -493,6 +513,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-05-11 21:18:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2020-04-21 23:29:58 +0200"
@@ -580,6 +606,15 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2020-04-22 21:58:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2020-05-11 21:25:33 +0200",
+      "iron_chestplate": "2020-05-11 21:25:33 +0200",
+      "iron_leggings": "2020-05-11 21:25:33 +0200",
+      "iron_helmet": "2020-05-11 21:25:33 +0200"
     },
     "done": true
   },
@@ -776,6 +811,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2020-05-11 21:17:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-04-21 23:03:07 +0200"
@@ -838,8 +879,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2020-05-11 21:31:12 +0200",
       "minecraft:zombie_pigman": "2020-05-10 22:15:28 +0200",
-      "minecraft:spider": "2020-04-22 21:59:31 +0200"
+      "minecraft:spider": "2020-04-22 21:59:31 +0200",
+      "minecraft:zombie": "2020-05-11 21:19:22 +0200"
     },
     "done": false
   },
