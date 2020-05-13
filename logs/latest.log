@@ -760,3 +760,105 @@ java.lang.IllegalArgumentException: Can not set final org.bukkit.craftbukkit.v1_
 [16:50:10] [Server thread/INFO]: [WorldGuard] (smrkovec) Fire spread is UNRESTRICTED.
 [16:50:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec'
 [16:50:10] [Server thread/INFO]: CONSOLE: [0;32;1mComplete![m
+[18:17:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5428ms or 108 ticks behind
+[18:19:05] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:19:06] [Server thread/INFO]: [0;33;22mThere are [0;31;1m0[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
+[18:19:11] [Server thread/INFO]: Stopping the server
+[18:19:11] [Server thread/INFO]: Stopping server
+[18:19:11] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.1.0-b763
+[18:19:11] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[18:19:12] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.1
+[18:19:12] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.3.34
+[18:19:13] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.1.0-b805
+[18:19:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[18:19:13] [Server thread/INFO]: [FastLeafDecay] Disabling FastLeafDecay v1.0
+[18:19:13] [Server thread/INFO]: [Sleepy] Disabling Sleepy v1.3b
+[18:19:13] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[18:19:13] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:19:14] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[18:19:14] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.1
+[18:19:15] [Server thread/INFO]: [SetLobby] Disabling SetLobby v1.1
+[18:19:15] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.2
+[18:19:15] [Server thread/INFO]: [MCRealTime] Disabling MCRealTime v3.3
+[18:19:15] [Server thread/INFO]: §cTimeServer stopped !
+[18:19:15] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
+[18:19:15] [Server thread/INFO]: [Fly] Disabling Fly v2.0
+[18:19:15] [Server thread/INFO]: [Fly] Plugin is shutting down
+[18:19:15] [Server thread/INFO]: [PerWorldPlugins] Disabling PerWorldPlugins v1.3.0
+[18:19:15] [Server thread/INFO]: [TabDeathCount] Disabling TabDeathCount v0.1.4
+[18:19:15] [Server thread/ERROR]: Error occurred while disabling TabDeathCount v0.1.4 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at io.github.brkalmar.bukkit.tabdeathcount.TabDeathCount.onDisable(TabDeathCount.java:65) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at me.incomprehendable.dev.pwp.transparentlisteners.PerWorldPluginLoader.disablePlugin(PerWorldPluginLoader.java:136) [PerWorldPlugins.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:430) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:396) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:699) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:689) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:864) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[18:19:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[18:19:15] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.3
+[18:19:16] [Server thread/INFO]: HealthBar disabled, all the health bars have been removed.
+[18:19:16] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
+[18:19:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[18:19:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:19:17] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.52
+[18:19:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[18:19:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:19:18] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:19:20] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:19:20] [Server thread/INFO]: [dynmap] Disabling dynmap v2.5-Dev201706100405
+[18:19:20] [Server thread/ERROR]: Error occurred while disabling dynmap v2.5-Dev201706100405 (Is it up to date?)
+java.lang.NullPointerException: null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:902) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at me.incomprehendable.dev.pwp.transparentlisteners.PerWorldPluginLoader.disablePlugin(PerWorldPluginLoader.java:136) [PerWorldPlugins.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:430) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:396) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:699) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:689) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:864) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[18:19:21] [Server thread/INFO]: Saving players
+[18:19:21] [Server thread/INFO]: Saving worlds
+[18:19:21] [Server thread/INFO]: Saving chunks for level 'lobby'/minecraft:overworld
+[18:19:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'lobby_nether'/minecraft:the_nether
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'lobby_the_end'/minecraft:the_end
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'survival_nether'/minecraft:survival_nether
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:world
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:world_the_end
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:world_nether
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'survival'/minecraft:survival
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'survival_the_end'/minecraft:survival_the_end
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'creative'/minecraft:creative
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'lobbyp'/minecraft:lobbyp
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobbyp): All chunks are saved
+[18:19:22] [Server thread/INFO]: Saving chunks for level 'smrkovec'/minecraft:smrkovec
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (smrkovec): All chunks are saved
+[18:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[18:19:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[18:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved
+[18:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobbyp): All chunks are saved
+[18:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (smrkovec): All chunks are saved
