@@ -813,6 +813,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2020-05-14 12:49:38 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-05-07 11:52:55 +0200"
@@ -1390,6 +1396,12 @@
       "has_iron_axe": "2020-04-14 09:34:57 +0200",
       "has_iron_pickaxe": "2020-04-14 09:34:57 +0200",
       "has_iron_sword": "2020-04-14 09:34:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2020-05-14 12:49:38 +0200"
     },
     "done": true
   },
