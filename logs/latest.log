@@ -1,31 +1,31 @@
-[10:29:25] [Server thread/INFO]: Loading properties
-[10:29:26] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-800b93f-8160e29 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[10:29:26] [Server thread/INFO]: Debug logging is disabled
-[10:29:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:29:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:29:26] [Server thread/INFO]: Default game type: SURVIVAL
-[10:29:26] [Server thread/INFO]: Generating keypair
-[10:29:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:29:27] [Server thread/INFO]: Using default channel type
-[10:29:36] [Server thread/WARN]: Plugin dynmap v2.5-Dev201706100405 does not specify an api-version.
-[10:29:36] [Server thread/WARN]: Plugin HealthBar v1.8.3 does not specify an api-version.
-[10:29:36] [Server thread/ERROR]: Could not load 'plugins\AntiCheatReloaded.jar' in folder 'plugins'
+[12:28:45] [Server thread/INFO]: Loading properties
+[12:28:46] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-800b93f-8160e29 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[12:28:46] [Server thread/INFO]: Debug logging is disabled
+[12:28:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:28:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:28:46] [Server thread/INFO]: Default game type: SURVIVAL
+[12:28:46] [Server thread/INFO]: Generating keypair
+[12:28:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:28:46] [Server thread/INFO]: Using default channel type
+[12:28:56] [Server thread/WARN]: Plugin dynmap v2.5-Dev201706100405 does not specify an api-version.
+[12:28:56] [Server thread/WARN]: Plugin HealthBar v1.8.3 does not specify an api-version.
+[12:28:56] [Server thread/ERROR]: Could not load 'plugins\AntiCheatReloaded.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:221) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:351) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:203) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[10:29:36] [Server thread/WARN]: Plugin TabDeathCount v0.1.4 does not specify an api-version.
-[10:29:36] [Server thread/WARN]: Plugin PerWorldPlugins v1.3.0 does not specify an api-version.
-[10:29:36] [Server thread/WARN]: Plugin Fly v2.0 does not specify an api-version.
-[10:29:36] [Server thread/WARN]: Plugin MCRealTime v3.3 does not specify an api-version.
-[10:29:36] [Server thread/WARN]: Plugin SetLobby v1.1 does not specify an api-version.
-[10:29:37] [Server thread/WARN]: Plugin Sleepy v1.3b does not specify an api-version.
-[10:29:38] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
-[10:29:38] [Server thread/INFO]: [dynmap] version=git-Spigot-800b93f-8160e29 (MC: 1.15.2)
-[10:29:38] [Server thread/ERROR]: [dynmap] Unable to find field biome for org.bukkit.craftbukkit.v1_15_R1.CraftChunkSnapshot
-[10:29:38] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v2.5-Dev201706100405 (Is it up to date?)
+[12:28:56] [Server thread/WARN]: Plugin TabDeathCount v0.1.4 does not specify an api-version.
+[12:28:56] [Server thread/WARN]: Plugin PerWorldPlugins v1.3.0 does not specify an api-version.
+[12:28:56] [Server thread/WARN]: Plugin Fly v2.0 does not specify an api-version.
+[12:28:56] [Server thread/WARN]: Plugin MCRealTime v3.3 does not specify an api-version.
+[12:28:57] [Server thread/WARN]: Plugin SetLobby v1.1 does not specify an api-version.
+[12:28:57] [Server thread/WARN]: Plugin Sleepy v1.3b does not specify an api-version.
+[12:28:57] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
+[12:28:57] [Server thread/INFO]: [dynmap] version=git-Spigot-800b93f-8160e29 (MC: 1.15.2)
+[12:28:58] [Server thread/ERROR]: [dynmap] Unable to find field biome for org.bukkit.craftbukkit.v1_15_R1.CraftChunkSnapshot
+[12:28:58] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v2.5-Dev201706100405 (Is it up to date?)
 java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
 	at org.dynmap.bukkit.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:129) ~[?:?]
 	at org.dynmap.bukkit.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:39) ~[?:?]
@@ -35,211 +35,213 @@ java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version i
 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:203) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[10:29:38] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
-[10:29:39] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.52
-[10:29:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
-[10:29:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@31cb2cc0]
-[10:29:40] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
-[10:29:40] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.3
-[10:29:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
-[10:29:40] [Server thread/INFO]: [TabDeathCount] Loading TabDeathCount v0.1.4
-[10:29:40] [Server thread/INFO]: [PerWorldPlugins] Loading PerWorldPlugins v1.3.0
-[10:29:40] [Server thread/INFO]: [PerWorldPlugins] Registering event interceptor...
-[10:29:40] [Server thread/INFO]: [Fly] Loading Fly v2.0
-[10:29:40] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
-[10:29:40] [Server thread/INFO]: [MCRealTime] Loading MCRealTime v3.3
-[10:29:40] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.2
-[10:29:40] [Server thread/INFO]: [SetLobby] Loading SetLobby v1.1
-[10:29:40] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
-[10:29:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
-[10:29:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[10:29:40] [Server thread/INFO]: [Sleepy] Loading Sleepy v1.3b
-[10:29:40] [Server thread/INFO]: [FastLeafDecay] Loading FastLeafDecay v1.0
-[10:29:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
-[10:29:40] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.1.0-b805
-[10:29:40] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.3.34
-[10:29:40] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.1
-[10:29:40] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.1.0-b763
-[10:29:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
-[10:29:40] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader LuckPerms v5.0.72
-[10:29:40] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[10:29:40] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.0.72[m
-[10:29:40] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[10:29:40] [Server thread/INFO]: [m
-[10:29:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:29:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:29:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:29:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:29:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1218ms)
-[10:29:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
-[10:29:41] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader WorldEdit v7.1.0;8e55131
-[10:29:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:29:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
-[10:29:42] [Server thread/WARN]: [WorldEdit] ====================================================
-[10:29:42] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
-[10:29:42] [Server thread/WARN]: [WorldEdit]  as your server software. 
-[10:29:42] [Server thread/WARN]: [WorldEdit]   
-[10:29:42] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
-[10:29:42] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
-[10:29:42] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
-[10:29:42] [Server thread/WARN]: [WorldEdit]   
-[10:29:42] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[10:29:42] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
-[10:29:42] [Server thread/WARN]: [WorldEdit]   
-[10:29:42] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
-[10:29:42] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[10:29:42] [Server thread/WARN]: [WorldEdit]   
-[10:29:42] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[10:29:42] [Server thread/WARN]: [WorldEdit] ====================================================
-[10:29:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:29:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:29:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:29:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:29:42] [Server thread/INFO]: Preparing level "lobby"
-[10:29:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[10:29:43] [Server thread/INFO]: Loaded 6 recipes
-[10:29:43] [Server thread/INFO]: -------- World Settings For [lobby] --------
-[10:29:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:43] [Server thread/INFO]: View Distance: 10
-[10:29:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:43] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:43] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:29:44] [Server thread/INFO]: -------- World Settings For [lobby_nether] --------
-[10:29:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:44] [Server thread/INFO]: View Distance: 10
-[10:29:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:44] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:44] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:44] [Server thread/INFO]: -------- World Settings For [lobby_the_end] --------
-[10:29:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:44] [Server thread/INFO]: View Distance: 10
-[10:29:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:44] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:44] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:44] [Server thread/INFO]: Preparing start region for dimension 'lobby'/minecraft:overworld
-[10:29:45] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:45] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:45] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:45] [Server thread/INFO]: Time elapsed: 1214 ms
-[10:29:45] [Server thread/INFO]: Preparing start region for dimension 'lobby_nether'/minecraft:the_nether
-[10:29:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:46] [Server-Worker-8/INFO]: Preparing spawn area: 83%
-[10:29:47] [Server-Worker-8/INFO]: Preparing spawn area: 83%
-[10:29:47] [Server-Worker-5/INFO]: Preparing spawn area: 83%
-[10:29:48] [Server-Worker-8/INFO]: Preparing spawn area: 90%
-[10:29:48] [Server thread/INFO]: Time elapsed: 2867 ms
-[10:29:48] [Server thread/INFO]: Preparing start region for dimension 'lobby_the_end'/minecraft:the_end
-[10:29:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:49] [Server-Worker-5/INFO]: Preparing spawn area: 83%
-[10:29:49] [Server thread/INFO]: Time elapsed: 857 ms
-[10:29:49] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405
-[10:29:49] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader dynmap v2.5-Dev201706100405
-[10:29:49] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[10:29:49] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.52
-[10:29:49] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PluginConstructorAPI v1.0.52
-[10:29:49] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
-[10:29:49] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Timber v1.0.7
-[10:29:49] [Server thread/INFO]: Timber Log Materials: [ACACIA_LOG, OAK_LOG, JUNGLE_LOG, BIRCH_LOG, SPRUCE_LOG, DARK_OAK_LOG]
-[10:29:49] [Server thread/INFO]: Timber Axe Materials: [WOODEN_AXE, GOLDEN_AXE, DIAMOND_AXE, IRON_AXE, STONE_AXE]
-[10:29:49] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3
-[10:29:49] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader HealthBar v1.8.3
-[10:29:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
-[10:29:49] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Essentials v2.17.2.0
-[10:29:49] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[10:29:49] [Server thread/INFO]: No kits found to migrate.
-[10:29:50] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[10:29:50] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[10:29:50] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[10:29:50] [Server thread/INFO]: Loaded 21018 items from items.json.
-[10:29:50] [Server thread/INFO]: Using locale en_GB
-[10:29:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:29:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:29:50] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[10:29:50] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[10:29:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[10:29:50] [Server thread/INFO]: [TabDeathCount] Enabling TabDeathCount v0.1.4
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader TabDeathCount v0.1.4
-[10:29:50] [Server thread/ERROR]: Error occurred while enabling TabDeathCount v0.1.4 (Is it up to date?)
+[12:28:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[12:29:00] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.52
+[12:29:00] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[12:29:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4f4c9e71]
+[12:29:01] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
+[12:29:01] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.3
+[12:29:01] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[12:29:01] [Server thread/INFO]: [TabDeathCount] Loading TabDeathCount v0.1.4
+[12:29:01] [Server thread/INFO]: [PerWorldPlugins] Loading PerWorldPlugins v1.3.0
+[12:29:01] [Server thread/INFO]: [PerWorldPlugins] Registering event interceptor...
+[12:29:01] [Server thread/INFO]: [Fly] Loading Fly v2.0
+[12:29:01] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[12:29:01] [Server thread/INFO]: [MCRealTime] Loading MCRealTime v3.3
+[12:29:01] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.2
+[12:29:01] [Server thread/INFO]: [SetLobby] Loading SetLobby v1.1
+[12:29:01] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[12:29:01] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[12:29:01] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[12:29:01] [Server thread/INFO]: [Sleepy] Loading Sleepy v1.3b
+[12:29:01] [Server thread/INFO]: [FastLeafDecay] Loading FastLeafDecay v1.0
+[12:29:01] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[12:29:01] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.1.0-b805
+[12:29:01] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.3.34
+[12:29:01] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.1
+[12:29:01] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.1.0-b763
+[12:29:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[12:29:01] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader LuckPerms v5.0.72
+[12:29:01] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[12:29:01] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.0.72[m
+[12:29:01] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[12:29:01] [Server thread/INFO]: [m
+[12:29:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:29:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:29:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:29:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:29:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1798ms)
+[12:29:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[12:29:03] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader WorldEdit v7.1.0;8e55131
+[12:29:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:29:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[12:29:04] [Server thread/WARN]: [WorldEdit] ====================================================
+[12:29:04] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[12:29:04] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[12:29:04] [Server thread/WARN]: [WorldEdit]   
+[12:29:04] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[12:29:04] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[12:29:04] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[12:29:04] [Server thread/WARN]: [WorldEdit]   
+[12:29:04] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[12:29:04] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[12:29:04] [Server thread/WARN]: [WorldEdit]   
+[12:29:04] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[12:29:04] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[12:29:04] [Server thread/WARN]: [WorldEdit]   
+[12:29:04] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[12:29:04] [Server thread/WARN]: [WorldEdit] ====================================================
+[12:29:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:29:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:29:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:29:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:29:04] [Server thread/INFO]: Preparing level "lobby"
+[12:29:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:29:04] [Server thread/INFO]: Loaded 6 recipes
+[12:29:05] [Server thread/INFO]: -------- World Settings For [lobby] --------
+[12:29:05] [Server thread/INFO]: View Distance: 10
+[12:29:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:05] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:05] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:29:06] [Server thread/INFO]: -------- World Settings For [lobby_nether] --------
+[12:29:06] [Server thread/INFO]: View Distance: 10
+[12:29:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:06] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:06] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:06] [Server thread/INFO]: -------- World Settings For [lobby_the_end] --------
+[12:29:06] [Server thread/INFO]: View Distance: 10
+[12:29:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:06] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:06] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:06] [Server thread/INFO]: Preparing start region for dimension 'lobby'/minecraft:overworld
+[12:29:07] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:07] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:07] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:07] [Server thread/INFO]: Time elapsed: 1583 ms
+[12:29:07] [Server thread/INFO]: Preparing start region for dimension 'lobby_nether'/minecraft:the_nether
+[12:29:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:09] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[12:29:09] [Server-Worker-9/INFO]: Preparing spawn area: 83%
+[12:29:10] [Server-Worker-7/INFO]: Preparing spawn area: 86%
+[12:29:10] [Server-Worker-9/INFO]: Preparing spawn area: 99%
+[12:29:10] [Server thread/INFO]: Time elapsed: 3022 ms
+[12:29:10] [Server thread/INFO]: Preparing start region for dimension 'lobby_the_end'/minecraft:the_end
+[12:29:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:11] [Server-Worker-4/INFO]: Preparing spawn area: 94%
+[12:29:11] [Server thread/INFO]: Time elapsed: 1046 ms
+[12:29:11] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405
+[12:29:11] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader dynmap v2.5-Dev201706100405
+[12:29:11] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[12:29:11] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.52
+[12:29:11] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PluginConstructorAPI v1.0.52
+[12:29:12] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
+[12:29:12] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Timber v1.0.7
+[12:29:12] [Server thread/INFO]: Timber Log Materials: [SPRUCE_LOG, DARK_OAK_LOG, JUNGLE_LOG, ACACIA_LOG, OAK_LOG, BIRCH_LOG]
+[12:29:12] [Server thread/INFO]: Timber Axe Materials: [WOODEN_AXE, GOLDEN_AXE, DIAMOND_AXE, STONE_AXE, IRON_AXE]
+[12:29:12] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3
+[12:29:12] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader HealthBar v1.8.3
+[12:29:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[12:29:12] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Essentials v2.17.2.0
+[12:29:12] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:29:12] [Server thread/INFO]: No kits found to migrate.
+[12:29:13] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[12:29:13] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[12:29:13] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[12:29:13] [Server thread/INFO]: Loaded 21018 items from items.json.
+[12:29:13] [Server thread/INFO]: Using locale en_GB
+[12:29:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:29:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:29:13] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[12:29:13] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[12:29:13] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:29:13] [Server thread/INFO]: [TabDeathCount] Enabling TabDeathCount v0.1.4
+[12:29:13] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader TabDeathCount v0.1.4
+[12:29:13] [Server thread/ERROR]: Error occurred while enabling TabDeathCount v0.1.4 (Is it up to date?)
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at io.github.brkalmar.bukkit.tabdeathcount.TabDeathCount.reloadConfig(TabDeathCount.java:79) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:133) ~[spigot.jar:git-Spigot-800b93f-8160e29]
@@ -255,10 +257,10 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:267) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[10:29:50] [Server thread/INFO]: [PerWorldPlugins] Enabling PerWorldPlugins v1.3.0
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PerWorldPlugins v1.3.0
-[10:29:50] [Server thread/INFO]: [PerWorldPlugins] Enabled, attempting to inject CommandHandler...
-[10:29:50] [Server thread/ERROR]: PerWorldPlugins failed replacing the existing PluginLoader, contact the developers on BukkitDev!
+[12:29:13] [Server thread/INFO]: [PerWorldPlugins] Enabling PerWorldPlugins v1.3.0
+[12:29:13] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PerWorldPlugins v1.3.0
+[12:29:13] [Server thread/INFO]: [PerWorldPlugins] Enabled, attempting to inject CommandHandler...
+[12:29:13] [Server thread/ERROR]: PerWorldPlugins failed replacing the existing PluginLoader, contact the developers on BukkitDev!
 java.lang.IllegalArgumentException: Can not set final org.bukkit.craftbukkit.v1_15_R1.command.CraftCommandMap field org.bukkit.craftbukkit.v1_15_R1.CraftServer.commandMap to me.incomprehendable.dev.pwp.FakeSimpleCommandMap
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:1.8.0_201]
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:1.8.0_201]
@@ -275,594 +277,732 @@ java.lang.IllegalArgumentException: Can not set final org.bukkit.craftbukkit.v1_
 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:267) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot.jar:git-Spigot-800b93f-8160e29]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[10:29:50] [Server thread/INFO]: [Fly] Enabling Fly v2.0
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Fly v2.0
-[10:29:50] [Server thread/INFO]: [Fly] Plugin is starting up
-[10:29:50] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PlugMan v2.1.7
-[10:29:50] [Server thread/INFO]: [MCRealTime] Enabling MCRealTime v3.3
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader MCRealTime v3.3
-[10:29:50] [Server thread/INFO]: §2TimeServer started !
-[10:29:50] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
-[10:29:50] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PerWorldInventory v2.3.2
-[10:29:51] [Server thread/INFO]: [SetLobby] Enabling SetLobby v1.1
-[10:29:51] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader SetLobby v1.1
-[10:29:51] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
-[10:29:51] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader HolographicDisplays v2.4.1
-[10:29:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
-[10:29:51] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-Core v4.1.0-b775
-[10:29:51] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
-[10:29:51] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
-[10:29:52] [Server thread/INFO]: -------- World Settings For [smrkovec_nether] --------
-[10:29:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:52] [Server thread/INFO]: View Distance: 10
-[10:29:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:52] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:52] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:52] [Server thread/INFO]: Preparing start region for dimension 'smrkovec_nether'/minecraft:the_nether
-[10:29:53] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:53] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:53] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:53] [Server thread/INFO]: Preparing spawn area: 10%
-[10:29:54] [Server-Worker-7/INFO]: Preparing spawn area: 83%
-[10:29:54] [Server-Worker-3/INFO]: Preparing spawn area: 89%
-[10:29:55] [Server thread/INFO]: Time elapsed: 2894 ms
-[10:29:55] [Server thread/INFO]: -------- World Settings For [survival] --------
-[10:29:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:55] [Server thread/INFO]: View Distance: 10
-[10:29:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:55] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:55] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:55] [Server thread/INFO]: Preparing start region for dimension 'survival'/minecraft:overworld
-[10:29:56] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:56] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:56] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:56] [Server thread/INFO]: Time elapsed: 1233 ms
-[10:29:56] [Server thread/INFO]: -------- World Settings For [survival_the_end] --------
-[10:29:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:56] [Server thread/INFO]: View Distance: 10
-[10:29:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:56] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:56] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:56] [Server thread/INFO]: Preparing start region for dimension 'survival_the_end'/minecraft:the_end
-[10:29:56] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:57] [Server thread/INFO]: Time elapsed: 514 ms
-[10:29:57] [Server thread/INFO]: -------- World Settings For [creative] --------
-[10:29:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:57] [Server thread/INFO]: View Distance: 10
-[10:29:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:57] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:57] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:57] [Server thread/INFO]: Preparing start region for dimension 'creative'/minecraft:overworld
-[10:29:57] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:57] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:57] [Server thread/INFO]: Time elapsed: 630 ms
-[10:29:57] [Server thread/INFO]: -------- World Settings For [lobbyp] --------
-[10:29:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:57] [Server thread/INFO]: View Distance: 10
-[10:29:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:57] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:57] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:57] [Server thread/INFO]: Preparing start region for dimension 'lobbyp'/minecraft:overworld
-[10:29:58] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:58] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:58] [Server thread/INFO]: Preparing spawn area: 0%
-[10:29:59] [Server thread/INFO]: Time elapsed: 1306 ms
-[10:29:59] [Server thread/INFO]: -------- World Settings For [survival_nether] --------
-[10:29:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:29:59] [Server thread/INFO]: View Distance: 10
-[10:29:59] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:29:59] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:29:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:29:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:29:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:29:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:29:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:29:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:29:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:29:59] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:29:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:29:59] [Server thread/INFO]: Mob Spawn Range: 6
-[10:29:59] [Server thread/INFO]: Max TNT Explosions: 100
-[10:29:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:29:59] [Server thread/INFO]: Preparing start region for dimension 'survival_nether'/minecraft:the_nether
-[10:30:00] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:00] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:00] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[10:30:00] [Server thread/INFO]: Time elapsed: 1205 ms
-[10:30:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:30:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:00] [Server thread/INFO]: View Distance: 10
-[10:30:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:30:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:30:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:30:00] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:00] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:00] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[10:30:00] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:01] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:01] [Server thread/INFO]: Time elapsed: 592 ms
-[10:30:01] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:30:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:01] [Server thread/INFO]: View Distance: 10
-[10:30:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:30:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:30:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:30:01] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:01] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:01] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[10:30:01] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:01] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:02] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:04] [Server-Worker-10/INFO]: Preparing spawn area: 83%
-[10:30:04] [Server-Worker-7/INFO]: Preparing spawn area: 83%
-[10:30:04] [Server-Worker-8/INFO]: Preparing spawn area: 83%
-[10:30:04] [Server-Worker-6/INFO]: Preparing spawn area: 83%
-[10:30:04] [Server-Worker-9/INFO]: Preparing spawn area: 83%
-[10:30:05] [Server thread/INFO]: Time elapsed: 3918 ms
-[10:30:05] [Server thread/INFO]: -------- World Settings For [smrkovec_the_end] --------
-[10:30:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:05] [Server thread/INFO]: View Distance: 10
-[10:30:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:30:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:30:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:30:05] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:05] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:05] [Server thread/INFO]: Preparing start region for dimension 'smrkovec_the_end'/minecraft:the_end
-[10:30:05] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:05] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[10:30:05] [Server thread/INFO]: Time elapsed: 855 ms
-[10:30:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:30:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:06] [Server thread/INFO]: View Distance: 10
-[10:30:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:30:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:30:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:30:06] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:06] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:06] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[10:30:06] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:06] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:07] [Server-Worker-3/INFO]: Preparing spawn area: 95%
-[10:30:07] [Server thread/INFO]: Time elapsed: 1340 ms
-[10:30:07] [Server thread/INFO]: -------- World Settings For [smrkovec] --------
-[10:30:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:07] [Server thread/INFO]: View Distance: 10
-[10:30:07] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:07] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[10:30:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:30:07] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:30:07] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:07] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:07] [Server thread/INFO]: Preparing start region for dimension 'smrkovec'/minecraft:overworld
-[10:30:08] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:08] [Server thread/INFO]: Preparing spawn area: 0%
-[10:30:10] [Server-Worker-5/INFO]: Preparing spawn area: 83%
-[10:30:10] [Server-Worker-10/INFO]: Preparing spawn area: 83%
-[10:30:10] [Server-Worker-7/INFO]: Preparing spawn area: 83%
-[10:30:10] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[10:30:10] [Server thread/INFO]: Time elapsed: 2941 ms
-[10:30:10] [Server thread/INFO]: [Multiverse-Core] 14 - World(s) loaded.
-[10:30:12] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[10:30:12] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[10:30:12] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[10:30:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[10:30:12] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_nether) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_nether) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_nether) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_nether) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby_nether'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_the_end) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby_the_end'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec_nether'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_the_end) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_the_end) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_the_end) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_the_end) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival_the_end'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (creative) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (creative) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (creative) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (creative) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'creative'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobbyp) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobbyp) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobbyp) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (lobbyp) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobbyp'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_nether) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_nether) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_nether) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (survival_nether) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival_nether'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec_the_end'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec) TNT ignition is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec) Lighters are PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec) Lava fire is PERMITTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] (smrkovec) Fire spread is UNRESTRICTED.
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec'
-[10:30:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[10:30:14] [Server thread/INFO]: [Sleepy] Enabling Sleepy v1.3b
-[10:30:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Sleepy v1.3b
-[10:30:14] [Server thread/INFO]: [FastLeafDecay] Enabling FastLeafDecay v1.0
-[10:30:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader FastLeafDecay v1.0
-[10:30:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
-[10:30:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader EssentialsChat v2.17.2.0
-[10:30:14] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.1.0-b805
-[10:30:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-Portals v4.1.0-b805
-[10:30:14] [Server thread/INFO]: [Multiverse-Portals] 10 - Portals(s) loaded
-[10:30:14] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[10:30:14] [Server thread/INFO]: [Multiverse-Portals 4.1.0-b805]  Enabled - By Rigby and fernferret
-[10:30:14] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.3.34
-[10:30:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader GadgetsMenu v4.3.34
-[10:30:14] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]            GadgetsMenu 4.3.34 is loading...
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]   [server: git-Spigot-800b93f-8160e29 (MC: 1.15.2)]
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]              Date Modified: 11 April 2020
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]                            
-[10:30:14] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_15_R1
-[10:30:14] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[10:30:17] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[10:30:17] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database.
-[10:30:17] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.1
-[10:30:17] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader DeadChest v3.1
-[10:30:17] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.1.0-b763
-[10:30:17] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-NetherPortals v4.1.0-b763
-[10:30:17] [Server thread/INFO]: [Multiverse-NetherPortals 4.1.0-b763]  Enabled - By Rigby and fernferret
-[10:30:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:30:18] [Server thread/INFO]: Done (35.771s)! For help, type "help"
-[10:30:18] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] [mChecking for updates...[m
-[10:30:19] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] [mYou have an old version of the plugin. You are using [0;33;1m4.3.34[m, available version [0;33;1m4.3.38[m.  [0;36;1m[21m*MINOR UPDATE*[m
-[10:32:32] [User Authenticator #1/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
-[10:32:34] [Server thread/INFO]: adam_skrr[/25.130.9.170:51814] logged in with entity id 432 at ([survival]-653.1088556228666, 79.58453096193702, -244.2880498053848)
-[10:35:33] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[10:44:49] [Server thread/WARN]: adam_skrr moved wrongly!
-[10:44:57] [Server thread/WARN]: adam_skrr moved wrongly!
-[10:44:58] [Server thread/WARN]: adam_skrr moved wrongly!
-[10:45:34] [Server thread/INFO]: adam_skrr lost connection: Disconnected
-[10:45:34] [Server thread/INFO]: adam_skrr left the game
-[10:45:40] [User Authenticator #2/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
-[10:45:40] [Server thread/INFO]: adam_skrr[/25.130.9.170:51900] logged in with entity id 4339 at ([survival]262.31733375353275, 11.0, 951.5270769568648)
-[10:47:09] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[10:57:41] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[10:58:58] [Server thread/INFO]: adam_skrr issued server command: /home
-[11:08:28] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[11:19:18] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[11:29:38] [Server thread/INFO]: adam_skrr issued server command: /home
-[11:29:38] [Server thread/WARN]: adam_skrr moved too quickly! 402.69627852003646,-7.0,1.8938342264065113
-[11:30:11] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[11:33:12] [Server thread/INFO]: adam_skrr issued server command: /home
-[11:48:09] [Server thread/INFO]: adam_skrr issued server command: /home
-[11:48:11] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:23:15] [User Authenticator #3/WARN]: [LuckPerms] Processing login for Tyweriusz98 took 1319ms.
-[12:23:15] [User Authenticator #3/INFO]: UUID of player Tyweriusz98 is 5fd814a3-2ed2-3aeb-a2d7-5c5a60994b3b
-[12:23:17] [Server thread/INFO]: Tyweriusz98[/0:0:0:0:0:0:0:1:2184] logged in with entity id 20793 at ([lobby]157.5, 1.0, 76.5)
-[12:23:17] [pool-14-thread-1/INFO]: Creating empty config: F:\Minecraft\gtmcraft\plugins\Essentials\userdata\5fd814a3-2ed2-3aeb-a2d7-5c5a60994b3b.yml
-[12:23:50] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobby'. Please double check your `worlds.yml` file configuration!
-[12:23:50] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobbyp'. Please double check your `worlds.yml` file configuration!
-[12:24:21] [Server thread/INFO]: adam_skrr issued server command: /home
-[12:24:23] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:25:05] [Server thread/INFO]: Tyweriusz98 issued server command: /
-[12:25:08] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<Tyweriusz98[m> jd[m
-[12:25:12] [Server thread/INFO]: Tyweriusz98 lost connection: Disconnected
-[12:25:12] [Server thread/INFO]: Tyweriusz98 left the game
-[12:25:35] [User Authenticator #4/INFO]: UUID of player Tyweriusz98 is 5fd814a3-2ed2-3aeb-a2d7-5c5a60994b3b
-[12:25:35] [Server thread/INFO]: Tyweriusz98[/0:0:0:0:0:0:0:1:2228] logged in with entity id 21165 at ([lobbyp]-53.20572084979923, 71.0, 22.07939799788081)
-[12:25:51] [Async Chat Thread - #0/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> kdo jkis[m
-[12:28:23] [Server thread/INFO]: Tyweriusz98 lost connection: Disconnected
-[12:28:23] [Server thread/INFO]: Tyweriusz98 left the game
-[12:31:14] [Server thread/INFO]: adam_skrr issued server command: /home
-[12:34:54] [Server thread/INFO]: adam_skrr issued server command: /home
-[12:34:54] [Server thread/WARN]: adam_skrr moved too quickly! -13.15497805555816,-38.0,-27.74768616952386
-[12:34:56] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:37:52] [Server thread/INFO]: adam_skrr issued server command: /home
-[12:43:22] [Server thread/INFO]: adam_skrr issued server command: /home
-[12:45:50] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
-[12:47:47] [Server thread/INFO]: adam_skrr issued server command: /HOME
-[12:47:47] [Server thread/WARN]: adam_skrr moved too quickly! -12.856149457934691,-81.0,-27.512166129214933
-[12:55:09] [Server thread/INFO]: adam_skrr issued server command: /HOME
-[12:55:09] [Server thread/WARN]: adam_skrr moved too quickly! -13.591563510602384,-81.0,-28.346935467271663
-[12:56:36] [Server thread/INFO]: adam_skrr lost connection: Disconnected
-[12:56:36] [Server thread/INFO]: adam_skrr left the game
+[12:29:13] [Server thread/INFO]: [Fly] Enabling Fly v2.0
+[12:29:13] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Fly v2.0
+[12:29:13] [Server thread/INFO]: [Fly] Plugin is starting up
+[12:29:14] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[12:29:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PlugMan v2.1.7
+[12:29:14] [Server thread/INFO]: [MCRealTime] Enabling MCRealTime v3.3
+[12:29:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader MCRealTime v3.3
+[12:29:14] [Server thread/INFO]: §2TimeServer started !
+[12:29:14] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
+[12:29:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader PerWorldInventory v2.3.2
+[12:29:14] [Server thread/INFO]: [SetLobby] Enabling SetLobby v1.1
+[12:29:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader SetLobby v1.1
+[12:29:15] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[12:29:15] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader HolographicDisplays v2.4.1
+[12:29:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[12:29:15] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-Core v4.1.0-b775
+[12:29:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[12:29:15] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[12:29:16] [Server thread/INFO]: -------- World Settings For [smrkovec_nether] --------
+[12:29:16] [Server thread/INFO]: View Distance: 10
+[12:29:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:16] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:16] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:16] [Server thread/INFO]: Preparing start region for dimension 'smrkovec_nether'/minecraft:the_nether
+[12:29:18] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:18] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:18] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:18] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:18] [Server thread/INFO]: Preparing spawn area: 66%
+[12:29:18] [Server-Worker-10/INFO]: Preparing spawn area: 87%
+[12:29:19] [Server thread/INFO]: Preparing spawn area: 92%
+[12:29:19] [Server thread/INFO]: Time elapsed: 3265 ms
+[12:29:19] [Server thread/INFO]: -------- World Settings For [survival] --------
+[12:29:19] [Server thread/INFO]: View Distance: 10
+[12:29:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:19] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:19] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:19] [Server thread/INFO]: Preparing start region for dimension 'survival'/minecraft:overworld
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:24] [Server thread/INFO]: Preparing spawn area: 83%
+[12:29:24] [Server thread/INFO]: Time elapsed: 4641 ms
+[12:29:24] [Server thread/INFO]: -------- World Settings For [survival_the_end] --------
+[12:29:24] [Server thread/INFO]: View Distance: 10
+[12:29:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:24] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:24] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:24] [Server thread/INFO]: Preparing start region for dimension 'survival_the_end'/minecraft:the_end
+[12:29:25] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:25] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:25] [Server thread/INFO]: Time elapsed: 831 ms
+[12:29:25] [Server thread/INFO]: -------- World Settings For [creative] --------
+[12:29:25] [Server thread/INFO]: View Distance: 10
+[12:29:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:25] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:25] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:25] [Server thread/INFO]: Preparing start region for dimension 'creative'/minecraft:overworld
+[12:29:26] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:26] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:26] [Server thread/INFO]: Time elapsed: 920 ms
+[12:29:26] [Server thread/INFO]: -------- World Settings For [lobbyp] --------
+[12:29:26] [Server thread/INFO]: View Distance: 10
+[12:29:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:26] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:26] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:26] [Server thread/INFO]: Preparing start region for dimension 'lobbyp'/minecraft:overworld
+[12:29:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:28] [Server thread/INFO]: Time elapsed: 1307 ms
+[12:29:28] [Server thread/INFO]: -------- World Settings For [survival_nether] --------
+[12:29:28] [Server thread/INFO]: View Distance: 10
+[12:29:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:28] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:28] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:28] [Server thread/INFO]: Preparing start region for dimension 'survival_nether'/minecraft:the_nether
+[12:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:29] [Server thread/INFO]: Time elapsed: 1459 ms
+[12:29:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:29:29] [Server thread/INFO]: View Distance: 10
+[12:29:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:29] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:29] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[12:29:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:33] [Server-Worker-8/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server-Worker-4/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server-Worker-11/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server-Worker-10/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server thread/INFO]: Preparing spawn area: 83%
+[12:29:33] [Server thread/INFO]: Time elapsed: 4175 ms
+[12:29:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:29:34] [Server thread/INFO]: View Distance: 10
+[12:29:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:34] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:34] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:34] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[12:29:34] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:34] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:35] [Server thread/INFO]: Time elapsed: 983 ms
+[12:29:35] [Server thread/INFO]: -------- World Settings For [smrkovec_the_end] --------
+[12:29:35] [Server thread/INFO]: View Distance: 10
+[12:29:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:35] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:35] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:35] [Server thread/INFO]: Preparing start region for dimension 'smrkovec_the_end'/minecraft:the_end
+[12:29:35] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:35] [Server thread/INFO]: Preparing spawn area: 57%
+[12:29:36] [Server-Worker-8/INFO]: Preparing spawn area: 93%
+[12:29:36] [Server thread/INFO]: Time elapsed: 1078 ms
+[12:29:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:29:36] [Server thread/INFO]: View Distance: 10
+[12:29:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:36] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:36] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:36] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[12:29:37] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:37] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:37] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:37] [Server-Worker-1/INFO]: Preparing spawn area: 95%
+[12:29:38] [Server thread/INFO]: Time elapsed: 1709 ms
+[12:29:38] [Server thread/INFO]: -------- World Settings For [smrkovec] --------
+[12:29:38] [Server thread/INFO]: View Distance: 10
+[12:29:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:29:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:29:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:29:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:29:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:29:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:29:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:29:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:29:38] [Server thread/INFO]: Mob Spawn Range: 6
+[12:29:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:29:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:29:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:29:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:29:38] [Server thread/INFO]: Max TNT Explosions: 100
+[12:29:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:29:38] [Server thread/INFO]: Preparing start region for dimension 'smrkovec'/minecraft:overworld
+[12:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:39] [Server thread/INFO]: Preparing spawn area: 0%
+[12:29:41] [Server-Worker-7/INFO]: Preparing spawn area: 83%
+[12:29:41] [Server-Worker-7/INFO]: Preparing spawn area: 83%
+[12:29:41] [Server-Worker-7/INFO]: Preparing spawn area: 83%
+[12:29:41] [Server-Worker-7/INFO]: Preparing spawn area: 83%
+[12:29:41] [Server-Worker-7/INFO]: Preparing spawn area: 99%
+[12:29:41] [Server thread/INFO]: Time elapsed: 3606 ms
+[12:29:41] [Server thread/INFO]: [Multiverse-Core] 14 - World(s) loaded.
+[12:29:42] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[12:29:42] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[12:29:42] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[12:29:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[12:29:42] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_nether) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_nether) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_nether) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_nether) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby_nether'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_the_end) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobby_the_end) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby_the_end'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_nether) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec_nether'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_the_end) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_the_end) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_the_end) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_the_end) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival_the_end'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (creative) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (creative) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (creative) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (creative) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'creative'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobbyp) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobbyp) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobbyp) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (lobbyp) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobbyp'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_nether) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_nether) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_nether) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (survival_nether) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival_nether'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec_the_end) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec_the_end'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec) TNT ignition is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec) Lighters are PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec) Lava fire is PERMITTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] (smrkovec) Fire spread is UNRESTRICTED.
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'smrkovec'
+[12:29:43] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:29:44] [Server thread/INFO]: [Sleepy] Enabling Sleepy v1.3b
+[12:29:44] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Sleepy v1.3b
+[12:29:44] [Server thread/INFO]: [FastLeafDecay] Enabling FastLeafDecay v1.0
+[12:29:44] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader FastLeafDecay v1.0
+[12:29:44] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[12:29:44] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader EssentialsChat v2.17.2.0
+[12:29:44] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.1.0-b805
+[12:29:44] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-Portals v4.1.0-b805
+[12:29:44] [Server thread/INFO]: [Multiverse-Portals] 10 - Portals(s) loaded
+[12:29:44] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[12:29:44] [Server thread/INFO]: [Multiverse-Portals 4.1.0-b805]  Enabled - By Rigby and fernferret
+[12:29:44] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.3.34
+[12:29:44] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader GadgetsMenu v4.3.34
+[12:29:44] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]            GadgetsMenu 4.3.34 is loading...
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]   [server: git-Spigot-800b93f-8160e29 (MC: 1.15.2)]
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]              Date Modified: 11 April 2020
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]                            
+[12:29:44] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_15_R1
+[12:29:44] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[12:29:48] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[12:29:48] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database.
+[12:29:48] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.1
+[12:29:48] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader DeadChest v3.1
+[12:29:48] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.1.0-b763
+[12:29:48] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader Multiverse-NetherPortals v4.1.0-b763
+[12:29:48] [Server thread/INFO]: [Multiverse-NetherPortals 4.1.0-b763]  Enabled - By Rigby and fernferret
+[12:29:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:29:49] [Server thread/INFO]: Done (44.683s)! For help, type "help"
+[12:29:49] [Craft Scheduler Thread - 10/INFO]: [GadgetsMenu] [mChecking for updates...[m
+[12:29:49] [Craft Scheduler Thread - 10/INFO]: [GadgetsMenu] [mYou have an old version of the plugin. You are using [0;33;1m4.3.34[m, available version [0;33;1m4.3.38[m.  [0;36;1m[21m*MINOR UPDATE*[m
+[12:30:02] [User Authenticator #1/INFO]: UUID of player zuziana is f7d99fd6-d9f5-3801-9977-be6918d09797
+[12:30:03] [Server thread/INFO]: zuziana[/0:0:0:0:0:0:0:1:29775] logged in with entity id 359 at ([survival]-1009.4352871325967, 75.5, 228.14509199199017)
+[12:30:31] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:41:00] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:51:44] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[12:53:40] [Server thread/INFO]: zuziana lost connection: Disconnected
+[12:53:40] [Server thread/INFO]: zuziana left the game
+[14:29:41] [User Authenticator #2/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[14:29:44] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:32713] logged in with entity id 3071 at ([smrkovec]-584.2770258264507, 69.0, -2449.0057844931507)
+[14:29:56] [Server thread/WARN]: Ciki5000 moved too quickly! 10.361814557686671,-0.6030684783165015,-4.695195368497934
+[14:35:42] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'smrkovec'. Please double check your `worlds.yml` file configuration!
+[14:35:42] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobby_nether'. Please double check your `worlds.yml` file configuration!
+[14:39:00] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[14:39:00] [Server thread/INFO]: Ciki5000 left the game
+[15:30:49] [User Authenticator #3/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
+[15:30:50] [Server thread/INFO]: adam_skrr[/25.130.9.170:50583] logged in with entity id 5057 at ([survival]-638.3686478996676, 76.0, -245.53536860482834)
+[15:30:59] [Server thread/INFO]: adam_skrr issued server command: /home
+[15:36:53] [Server thread/INFO]: adam_skrr issued server command: /home
+[15:36:53] [Server thread/WARN]: adam_skrr moved too quickly! 404.68570719369745,-7.0,2.164876783246598
+[16:41:03] [User Authenticator #4/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[16:41:03] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:35839] logged in with entity id 13292 at ([smrkovec]-580.6062755490275, 69.0, -2441.2941921139836)
+[16:41:10] [Server thread/WARN]: Ciki5000 moved too quickly! -10.134185000443267,0.0,-0.9249468977773176
+[16:44:27] [User Authenticator #5/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:44:28] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55254] logged in with entity id 16919 at ([smrkovec]-562.4875000119209, 116.0, -2411.300000011921)
+[16:45:16] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[16:46:28] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[16:46:28] [Server thread/INFO]: Ciki5000 left the game
+[16:46:29] [User Authenticator #6/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[16:46:29] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:35911] logged in with entity id 18288 at ([smrkovec]248.22998433263606, 67.0, -1349.2088814111366)
+[16:46:48] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> nic[m
+[16:47:15] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:47:15] [Server thread/INFO]: MydadfailNNN left the game
+[16:47:26] [User Authenticator #7/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:47:26] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55342] logged in with entity id 18568 at ([smrkovec]248.15749244959446, 67.525, -1349.867589988922)
+[16:47:37] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> ja mám leftnout[m
+[16:47:42] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> nn[m
+[16:47:42] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> tak znovu[m
+[16:47:47] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> jdi dolu[m
+[16:48:45] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[16:48:45] [Server thread/INFO]: Ciki5000 left the game
+[16:49:06] [User Authenticator #8/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[16:49:06] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:35925] logged in with entity id 19059 at ([smrkovec]249.02773561512691, 67.0, -1349.9591411554704)
+[16:49:38] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> tak co[m
+[16:49:52] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[16:49:52] [Server thread/INFO]: Ciki5000 left the game
+[16:49:52] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> ted leftni[m
+[16:49:59] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> ten osel zmizel[m
+[16:50:10] [User Authenticator #9/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[16:50:11] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:35949] logged in with entity id 19372 at ([smrkovec]247.705810546875, 67.525, -1351.290098879428)
+[16:50:21] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> osel zmizel[m
+[16:50:25] [Server thread/WARN]: MydadfailNNN moved wrongly!
+[16:51:07] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> uz vim[m
+[16:51:44] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> naskoc[m
+[16:51:46] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> r[m
+[16:52:13] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<Ciki5000[m> a leftni to[m
+[16:52:16] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:52:16] [Server thread/INFO]: MydadfailNNN left the game
+[16:52:33] [User Authenticator #10/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:52:34] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55481] logged in with entity id 20096 at ([smrkovec]248.0986328125, 67.525, -1351.049072265625)
+[16:53:20] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:53:20] [Server thread/INFO]: MydadfailNNN left the game
+[16:53:58] [User Authenticator #11/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:53:58] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55621] logged in with entity id 20491 at ([smrkovec]247.7939453125, 67.525, -1349.759521484375)
+[16:54:07] [Server thread/WARN]: MydadfailNNN moved wrongly!
+[16:54:32] [Server thread/WARN]: MydadfailNNN moved wrongly!
+[16:54:39] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:54:39] [Server thread/INFO]: MydadfailNNN left the game
+[16:55:14] [User Authenticator #12/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:55:14] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55759] logged in with entity id 20868 at ([smrkovec]247.3232421875, 67.525, -1350.36083984375)
+[16:55:22] [Server thread/INFO]: MydadfailNNN has reached the goal [Sky's the Limit]
+[16:56:02] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:56:02] [Server thread/INFO]: MydadfailNNN left the game
+[16:56:35] [User Authenticator #13/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:56:35] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:55909] logged in with entity id 21286 at ([smrkovec]247.96240234375, 67.525, -1351.3017578125)
+[16:58:11] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[16:58:11] [Server thread/INFO]: MydadfailNNN left the game
+[16:58:46] [User Authenticator #14/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[16:58:46] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56067] logged in with entity id 21953 at ([smrkovec]248.009521484375, 67.525, -1351.056884765625)
+[17:00:01] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:00:01] [Server thread/INFO]: MydadfailNNN left the game
+[17:00:35] [User Authenticator #15/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:00:36] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56208] logged in with entity id 22518 at ([smrkovec]247.3349609375, 67.525, -1351.28076171875)
+[17:00:44] [Server thread/WARN]: MydadfailNNN moved wrongly!
+[17:04:13] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:10:22] [Server thread/INFO]: Ciki5000 has reached the goal [The Next Generation]
+[17:16:30] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:17:06] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:17:06] [Server thread/INFO]: MydadfailNNN left the game
+[17:17:53] [User Authenticator #16/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:17:53] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56389] logged in with entity id 31912 at ([smrkovec]247.84814453125, 67.525, -1351.140869140625)
+[17:19:18] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:23:54] [Server thread/INFO]: MydadfailNNN has reached the goal [The Next Generation]
+[17:31:04] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN c
+[17:31:39] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:31:39] [Server thread/INFO]: MydadfailNNN left the game
+[17:32:17] [User Authenticator #17/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:32:18] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56557] logged in with entity id 39364 at ([smrkovec]248.17529296875, 67.525, -1351.3017578125)
+[17:32:38] [Server thread/INFO]: MydadfailNNN issued server command: /tp Ciki5000 MydadfailNNN
+[17:33:19] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:33:19] [Server thread/INFO]: MydadfailNNN left the game
+[17:34:07] [User Authenticator #18/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:34:08] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56701] logged in with entity id 41512 at ([smrkovec]248.716552734375, 67.525, -1350.3720703125)
+[17:34:28] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:34:43] [Server thread/INFO]: Ciki5000 has made the advancement [Bring Home the Beacon]
+[17:34:43] [Server thread/INFO]: Ciki5000 has reached the goal [Beaconator]
+[17:40:07] [Server thread/INFO]: Villager EntityVillager['Librarian'/42543, l='smrkovec', x=-572.70, y=124.56, z=-2421.70] died, message: 'Librarian was slain by Zombie'
+[17:40:25] [Server thread/INFO]: MydadfailNNN fell from a high place
+[17:41:01] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:41:11] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:41:11] [Server thread/INFO]: MydadfailNNN left the game
+[17:41:50] [User Authenticator #19/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:41:50] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56863] logged in with entity id 48048 at ([smrkovec]247.9833984375, 67.525, -1350.88818359375)
+[17:43:24] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:47:46] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:47:46] [Server thread/INFO]: MydadfailNNN left the game
+[17:47:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11686ms or 233 ticks behind
+[17:47:54] [User Authenticator #20/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:47:54] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:56901] logged in with entity id 51638 at ([smrkovec]-631.6936283098371, 69.0, -2375.9774663566272)
+[17:48:25] [Async Chat Thread - #2/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mAlwin[m> útp MydadfailNNN Ciki5000[m
+[17:48:33] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:48:44] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[17:48:45] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:48:45] [Server thread/INFO]: MydadfailNNN left the game
+[17:49:26] [User Authenticator #21/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:49:26] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:57044] logged in with entity id 53954 at ([smrkovec]247.869140625, 67.525, -1351.066650390625)
+[17:50:13] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:50:13] [Server thread/INFO]: MydadfailNNN left the game
+[17:50:46] [User Authenticator #22/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:50:46] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:57185] logged in with entity id 54401 at ([smrkovec]248.010498046875, 67.525, -1351.229248046875)
+[17:51:11] [Async Chat Thread - #3/INFO]: [[0;37;1msurvival[0;37;1m][m<Filipuv_bratr[m> proc to fuert leavujete a pripojujuete[m
+[17:51:25] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[17:51:25] [Server thread/INFO]: MydadfailNNN left the game
+[17:52:01] [User Authenticator #23/INFO]: UUID of player MydadfailNNN is 8dacf9b3-c2be-3c28-9582-ed53c5f0a23c
+[17:52:01] [Server thread/INFO]: MydadfailNNN[/25.129.162.161:57328] logged in with entity id 55101 at ([smrkovec]247.996337890625, 67.525, -1351.14599609375)
+[17:53:52] [Server thread/INFO]: MydadfailNNN issued server command: /tp MydadfailNNN Ciki5000
+[17:57:57] [Server thread/WARN]: adam_skrr moved wrongly!
+[17:58:38] [Server thread/WARN]: adam_skrr moved wrongly!
+[17:59:22] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[17:59:57] [Server thread/WARN]: adam_skrr moved wrongly!
+[18:01:34] [Server thread/WARN]: adam_skrr moved wrongly!
+[18:02:21] [Server thread/WARN]: adam_skrr moved wrongly!
+[18:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5095ms or 101 ticks behind
+[18:06:14] [Server thread/INFO]: MydadfailNNN lost connection: Disconnected
+[18:06:14] [Server thread/INFO]: MydadfailNNN left the game
+[18:06:15] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[18:06:15] [Server thread/INFO]: Ciki5000 left the game
+[18:10:17] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[18:17:17] [Server thread/INFO]: adam_skrr issued server command: /home
+[18:20:48] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[18:31:35] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[18:42:24] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[18:43:34] [User Authenticator #24/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[18:43:34] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:37603] logged in with entity id 67853 at ([smrkovec]-599.0511407047101, 69.0, -2440.9788162889354)
+[18:44:14] [Server thread/INFO]: Ciki5000 experienced kinetic energy
+[18:47:31] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[18:47:31] [Server thread/INFO]: Ciki5000 left the game
+[18:48:08] [User Authenticator #25/INFO]: UUID of player Ciki5000 is c8145881-397f-35d0-82c8-03a2c59284bf
+[18:48:09] [Server thread/INFO]: Ciki5000[/0:0:0:0:0:0:0:1:37804] logged in with entity id 70336 at ([smrkovec]-569.6492276680943, 8.0, -2465.300000011921)
+[18:52:00] [Server thread/INFO]: Ciki5000 experienced kinetic energy
+[18:52:46] [Server thread/INFO]: adam_skrr was killed by [Intentional Game Design]
+[18:52:59] [Server thread/INFO]: adam_skrr issued server command: /home
+[18:53:19] [Server thread/INFO]: Ciki5000 fell from a high place
+[18:53:36] [Server thread/INFO]: Ciki5000 fell from a high place
+[18:56:19] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[19:04:19] [Server thread/INFO]: adam_skrr issued server command: /home
+[19:07:15] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[19:09:29] [Server thread/INFO]: Ciki5000 fell from a high place
+[19:09:45] [Server thread/INFO]: Ciki5000 fell from a high place
+[19:10:07] [Server thread/WARN]: Ciki5000 moved too quickly! 0.4008494656334278,-14.554141162874998,-0.027344074707798427
+[19:10:09] [Server thread/INFO]: Ciki5000 fell from a high place
+[19:13:14] [Server thread/INFO]: Ciki5000 lost connection: Disconnected
+[19:13:14] [Server thread/INFO]: Ciki5000 left the game
+[19:14:59] [Server thread/INFO]: CONSOLE issued server command: /list 
+[19:15:00] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m206[0;33;22m players online.[m
+[19:15:00] [Server thread/INFO]: [0;33;22mdefault[m: Filipuv_bratr[m[0;37;1m[m
