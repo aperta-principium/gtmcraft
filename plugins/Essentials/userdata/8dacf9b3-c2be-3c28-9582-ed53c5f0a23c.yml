@@ -1,21 +1,21 @@
 lastAccountName: MydadfailNNN
 timestamps:
-  login: 1590476143907
-  logout: 1590478043865
+  login: 1590502833301
+  logout: 1590508187664
 ipAddress: 25.129.162.161
 logoutlocation:
-  world: creative
-  x: -96.01695439646743
-  y: 65.03272111904619
-  z: -174.88100207796853
-  yaw: 261.20752
-  pitch: 15.851749
+  world: smrkovec
+  x: -454.6401820476869
+  y: 80.0
+  z: -2732.834805689192
+  yaw: -243.49567
+  pitch: 5.6919355
 nickname: Alwin
 lastlocation:
-  world: smrkovec
-  x: 197.292869780954
-  y: 72.0
-  z: 73.7513458557348
-  yaw: 19.22927
-  pitch: 19.383228
+  world: survival
+  x: -360.2546260227379
+  y: 73.0
+  z: -247.90376013776236
+  yaw: -154.64496
+  pitch: 14.876619
 afk: false
