@@ -1,0 +1,28 @@
+lastAccountName: KenoKing93
+timestamps:
+  login: 1589184708733
+  lastteleport: 1588858695385
+  logout: 1589184639310
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: survival
+  x: -735.6559152677095
+  y: 71.0
+  z: -245.72962065002793
+  yaw: -24.600954
+  pitch: 16.950085
+homes:
+  home:
+    world: survival
+    x: -703.5397317380751
+    y: 87.0
+    z: -243.45479880671954
+    yaw: 95.654274
+    pitch: 4.199984
+logoutlocation:
+  world: survival
+  x: -724.9922808156927
+  y: 79.5
+  z: -234.50271505561662
+  yaw: -104.89589
+  pitch: 22.799965

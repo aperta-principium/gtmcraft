@@ -1,0 +1,31 @@
+lastAccountName: adam_skrr
+timestamps:
+  login: 1590429723538
+  logout: 1590432620045
+  lastteleport: 1590432570751
+  mute: 0
+ipAddress: 25.130.9.170
+logoutlocation:
+  world: survival
+  x: -383.69999998807907
+  y: 69.0
+  z: -232.50272589478254
+  yaw: 82.19098
+  pitch: 22.050156
+lastlocation:
+  world: survival
+  x: -697.078159673675
+  y: 82.0
+  z: -236.2881594491975
+  yaw: 228.28954
+  pitch: 21.900213
+nickname: Filipuv_bratr
+homes:
+  home:
+    world: survival
+    x: -360.32159616053184
+    y: 65.0
+    z: -237.61821241333396
+    yaw: 292.6407
+    pitch: 24.45019
+muted: false

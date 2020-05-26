@@ -1,0 +1,29 @@
+#=-=-=-=-=-=-=-=-=-=-=-Player Hide-=-=-=-=-=-=-=-=-=-=-=-=#
+#=-                 Author : Kiwislash                  -=#
+#=-                 Version : 3.7                       -=#				
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+
+#Inventory Items Names and Messages
+
+HidePlayers: "&8[&cHidePlayers&8]"
+HidePlayers_Message: "&cYou hide all players.."
+ShowPlayers: "&8[&cShowPlayers&8]"
+ShowPlayers_Message: "&aYou show all players.."
+Permission: "&4You don't have the permission."
+MenuName: "&e&lPlayerHide Select"
+
+#Join Items
+#True or False | True > Give items in Join | False > Dont Give items in Join###
+
+ItemJoin: true
+ItemJoinName: '&ePlayer Hide'
+ItemJoinID: 345
+ItemJoinData: 0
+ItemJoinAmount: 1
+
+## Position 0 to 8 ##
+PositionItem: 8
+
+## Drop and Move Item Inventory ##
+MoveItem: true
+DropItem: true

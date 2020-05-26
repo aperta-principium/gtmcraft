@@ -1,0 +1,28 @@
+lastAccountName: tsutsanna
+timestamps:
+  login: 1587030749553
+  lastteleport: 1587052543418
+  logout: 1587052556465
+ipAddress: 0:0:0:0:0:0:0:1
+homes:
+  home:
+    world: survival
+    x: -24.308153093422
+    y: 63.0
+    z: -52.85567736382287
+    yaw: 100.65735
+    pitch: 9.749939
+lastlocation:
+  world: survival
+  x: -208.5
+  y: 69.0
+  z: -126.5
+  yaw: -58.05001
+  pitch: 17.099993
+logoutlocation:
+  world: survival
+  x: -24.5
+  y: 63.0
+  z: -52.5
+  yaw: 100.65735
+  pitch: 9.749939

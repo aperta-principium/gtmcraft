@@ -1,0 +1,17 @@
+survivalText:
+  location: lobby, 164.018, 7.243, 95.123
+  lines:
+  - '&aSURVIVAL'
+rulesTxt:
+  location: lobby, 180.566, 7.200, 47.096
+  lines:
+  - '&bServer rules'
+  - '&band commands'
+parkour:
+  location: lobby, 160.238, 7.238, 100.481
+  lines:
+  - '&nPARKOUR'
+shithut:
+  location: lobby, 186.408, 7.200, 51.468
+  lines:
+  - '&fSHITHUT'

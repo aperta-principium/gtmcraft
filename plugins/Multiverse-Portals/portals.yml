@@ -1,0 +1,101 @@
+portals:
+  lobbyToSurvival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 154.0,4.0,109.0:173.0,22.0,109.0
+    world: lobby
+    destination: p:survivalToLobby
+  survivalToLobby:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: -209.0,69.0,-126.0:-206.0,72.0,-126.0
+    world: survival
+    destination: p:lobbyToSurvival
+  ruleToLobby:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 136.0,4.0,193.0:140.0,7.0,193.0
+    world: lobby
+    destination: p:lobbyToRule
+  lobbyToRule:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 178.0,5.0,43.0:182.0,8.0,43.0
+    world: lobby
+    destination: p:ruleToLobby
+  CreaToLobby:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: -252.0,42.0,-131.0:-252.0,46.0,-125.0
+    world: creative
+    destination: p:lobbyToCrea
+  lobbyToCrea:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 124.0,4.0,58.0:124.0,22.0,77.0
+    world: lobby
+    destination: p:CreaToLobby
+  shitToLobby:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 97.0,4.0,62.0:97.0,7.0,64.0
+    world: lobby
+    destination: p:lobbyToShithut
+  lobbyToShithut:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 188.0,5.0,49.0:188.0,8.0,53.0
+    world: lobby
+    destination: p:shitToLobby
+  peterToLobby:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: -19.0,152.0,-60.0:-7.0,166.0,-60.0
+    world: lobbyp
+    destination: p:lobbyToPeter
+  lobbyToPeter:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: mackcz
+    location: 154.0,4.0,25.0:173.0,22.0,25.0
+    world: lobby
+    destination: p:peterToLobby

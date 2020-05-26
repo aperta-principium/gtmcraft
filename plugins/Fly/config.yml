@@ -1,0 +1,13 @@
+# %player% to get your name
+# %otherPlayer% to get the target players name
+
+fly-enable-me: '&aFly enabled'
+fly-disable-me: '&cFly disabled'
+fly-enable-other: '&aEnabled &7%otherPlayer%&7''s &afly'
+fly-disable-other: '&cDisabled &7%otherPlayer%&7''s &cfly'
+fly-enable-playerOther: '&7%player% &aenabled fly for you'
+fly-disable-playerOther: '&7%player% &cdisabled fly for you'
+fly-permission-makefly: '&cYou don''t have permission to do that!'
+fly-permission-makeothersfly: '&cYou don''t have permission to do that!'
+fly-notonline: '&cThat player is not online!'
+fly-usageOther: '&cUsage: /fly <player>'

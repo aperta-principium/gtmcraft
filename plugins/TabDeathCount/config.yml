@@ -1,0 +1,9 @@
+# For description, visit <http://dev.bukkit.org/bukkit-plugins/tab_death_count/>
+# and look for the Configuration section.
+
+playerName:
+  format: "%s"
+
+deathCount:
+  format: "[%02d]"
+  position: start

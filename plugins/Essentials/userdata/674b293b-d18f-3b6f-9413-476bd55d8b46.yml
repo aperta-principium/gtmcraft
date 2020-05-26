@@ -1,0 +1,30 @@
+lastAccountName: CreepyAmateur
+timestamps:
+  login: 1589961758294
+  logout: 1589970197621
+  lastteleport: 1589965255001
+ipAddress: 25.93.248.102
+logoutlocation:
+  world: survival
+  x: 270.69999998807907
+  y: 11.0
+  z: 1494.699999988079
+  yaw: -167.09578
+  pitch: 24.26986
+lastlocation:
+  world: survival
+  x: 320.87017231239463
+  y: 63.0
+  z: 951.9171683895909
+  yaw: 34.47755
+  pitch: 23.45646
+nickname: Vlados
+afk: false
+homes:
+  home:
+    world: survival
+    x: 272.07804302031707
+    y: 79.0
+    z: 987.1700480311684
+    yaw: -77.90579
+    pitch: 8.099993

@@ -1,0 +1,29 @@
+lastAccountName: aellopos
+timestamps:
+  login: 1589224587455
+  logout: 1589225711010
+  lastteleport: 1589224612681
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: survival
+  x: -420.73370558258796
+  y: 42.0
+  z: -209.69999998807907
+  yaw: -118.07764
+  pitch: 33.00004
+logoutlocation:
+  world: survival
+  x: -674.4100225209114
+  y: 66.0
+  z: -145.3711893378487
+  yaw: -183.18695
+  pitch: 10.949761
+nickname: MSP_BOSS
+homes:
+  home:
+    world: survival
+    x: -756.2482051949719
+    y: 81.0
+    z: -277.7841470438559
+    yaw: -39.788574
+    pitch: 60.300022

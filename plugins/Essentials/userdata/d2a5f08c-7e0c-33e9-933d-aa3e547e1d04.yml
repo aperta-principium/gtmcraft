@@ -1,0 +1,27 @@
+lastAccountName: Stealthelf
+timestamps:
+  login: 1586976414546
+  logout: 1586978668283
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: survival
+  x: -208.5
+  y: 69.0
+  z: -126.5
+  yaw: -175.5001
+  pitch: 2.699983
+logoutlocation:
+  world: survival
+  x: -329.10868840984597
+  y: 62.0
+  z: -72.30000001192093
+  yaw: -11.849994
+  pitch: -1.5000052
+homes:
+  home:
+    world: survival
+    x: -72.61569015237853
+    y: 65.0
+    z: 30.69999998807907
+    yaw: 12.303864
+    pitch: 5.0999103

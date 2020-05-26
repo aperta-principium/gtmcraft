@@ -1,0 +1,20 @@
+lastAccountName: ParmenLP01
+timestamps:
+  login: 1588609733184
+  logout: 1588611373045
+  lastteleport: 1588610852704
+ipAddress: 25.102.56.67
+logoutlocation:
+  world: lobby
+  x: 170.62760522672895
+  y: 4.0
+  z: 58.15063235916384
+  yaw: 129.30037
+  pitch: 29.249977
+lastlocation:
+  world: survival
+  x: -206.96771444324833
+  y: 69.0
+  z: -126.93713125858174
+  yaw: -127.50021
+  pitch: 10.650003

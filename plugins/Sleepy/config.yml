@@ -1,0 +1,36 @@
+waketime:
+  value: 0
+  description: what time to wake the player
+target:
+  value: 25
+  description: the target value
+wakemsg:
+  value: Enough players are sleeping, waking everybody up!
+  description: msg when target is met
+targetmsg:
+  value: The current target is &6%t&r%, meaning &6%np&r player(s) have to sleep
+  description: msg when viewing target
+targetmsgabs:
+  value: The current target is &6%np&r players
+  description: msg when viewing target & usepercentage == false
+setmsg:
+  value: Successfully set a new target of &6%t&r%
+  description: msg when setting a new target
+setmsgabs:
+  value: Sucessfully set a new target of &6%np&r players
+  description: msg when setting a new target & usepercentage == false
+reloadmsg:
+  value: '&aSuccessfully reloaded the config'
+  description: msg when reloading the config
+sleepmsg:
+  value: '&6%p&r just went to bed, needing &6%np&r more players to join them'
+  description: msg when a player has gone to bed
+leavemsg:
+  value: '&6%p&r just left their bed'
+  description: msg when a player has left their bed
+usepercentage:
+  value: true
+  description: use percentage (true) or player amount (false) as the target
+announcesleep:
+  value: true
+  description: announce when people get into or out of bed

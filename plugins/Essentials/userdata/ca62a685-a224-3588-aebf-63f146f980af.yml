@@ -1,0 +1,29 @@
+lastAccountName: Yoopierre
+timestamps:
+  login: 1590430684903
+  logout: 1590430737998
+  lastteleport: 1588960684018
+ipAddress: 25.98.164.7
+lastlocation:
+  world: smrkovec
+  x: -614.1175296820473
+  y: 79.00133597911214
+  z: -2492.40409618392
+  yaw: -132.09344
+  pitch: 14.8517275
+logoutlocation:
+  world: smrkovec
+  x: -596.0423487090519
+  y: 76.0
+  z: -2446.4252219775703
+  yaw: 356.46686
+  pitch: 35.013985
+nickname: Pietro
+homes:
+  home:
+    world: survival
+    x: -973.0822094792939
+    y: 64.0
+    z: -291.76249998807907
+    yaw: -164.01672
+    pitch: 61.949913

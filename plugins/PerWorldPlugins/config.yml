@@ -1,0 +1,64 @@
+# This config controls what plugins work on certain worlds.
+# Example
+# limit:
+#   WorldEdit:
+#     - world
+#     - world_nether
+#   Essentials: []
+# This will make it so worldedit will only work in world & world_nether, meaning in the end it is not usable.
+# When there is no worlds in the list it will allow it for any worlds, in this example allowing all worlds.
+# Whenever a plugin is added, this config will automatically add it!
+# exempt-login-events is for excluding login events when true, this means if a plugin uses PlayerLogin it will allow it for any world. We advise this to be enabled!
+# blocked-msg is the string displayed to a client when a command is blocked
+exempt-login-events: true
+check-for-updates: true
+blocked-msg: '&c[Error] This command cannot be performed in this world.'
+limit:
+  LobbyAPI: []
+  dynmap: []
+  SetHome:
+  - survival
+  PluginConstructorAPI: []
+  WorldEdit:
+  - lobbyp
+  - creative
+  - lobby
+  PerWorldInventory: []
+  Multiverse-Core: []
+  WorldGuard: []
+  Multiverse-Portals: []
+  SpeedPlates: []
+  SinglePlayerSleep:
+  - survival
+  LuckPerms: []
+  SetLobby:
+  - lobby
+  PlayersHide:
+  - world
+  Fly:
+  - creative
+  - lobby
+  GadgetsMenu:
+  - lobby
+  HolographicDisplays: []
+  PerWorldChatPlus: []
+  DiscordSRV: []
+  Timber:
+  - survival
+  HealthBar:
+  - survival
+  DeadChest:
+  - survival
+  FastLeafDecay:
+  - survival
+  MCRealTime:
+  - lobbyp
+  - lobby
+  Sleepy:
+  - survival
+  Essentials: []
+  EssentialsChat: []
+  Multiverse-NetherPortals: []
+  TabDeathCount: []
+  PlugMan: []
+  ChestProtect: []

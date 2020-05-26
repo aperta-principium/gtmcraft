@@ -1,0 +1,73 @@
+mackcz:
+  '~':
+    xp: 0.33333334
+    xpl: 1
+    health: 15.7333402633667
+    hunger: 20
+    allowflight: false
+    fireticks: -20
+    exhaustion: 0.11011861
+    saturation: 0.0
+    air: 298
+    compasslocation:
+      ==: org.bukkit.Location
+      world: lobby
+      x: 164.0
+      y: 5.0
+      z: 68.0
+      pitch: 0.0
+      yaw: 0.0
+    i:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: WOODEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 5
+      '1': WOODEN_PICKAXE
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: WOODEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 2
+      '3': OAK_SAPLING,2
+      '4': MELON_SLICE,61
+      '5': AZURE_BLUET
+      '6': FEATHER
+      '7': CHICKEN
+      '8': OAK_SLAB,28
+      '12': JUNGLE_PLANKS,64
+      '13': JUNGLE_PLANKS,17
+      '14': STICK,5
+      '19': OAK_PLANKS,19
+      '31': PORKCHOP,7
+    advancements:
+      story/lava_bucket:
+        won: ''
+      story/form_obsidian:
+        won: ''
+      adventure/root:
+        remaining:
+        - killed_something
+      adventure/adventuring_time:
+        awarded:
+        - minecraft:jungle_edge
+        - minecraft:forest
+        - minecraft:taiga
+        - minecraft:jungle
+        - minecraft:jungle_hills
+        - minecraft:beach
+        - minecraft:wooded_hills
+        - minecraft:plains
+      husbandry/balanced_diet:
+        awarded:
+        - melon_slice
+      husbandry/root:
+        won: ''
+      story/root:
+        won: ''
