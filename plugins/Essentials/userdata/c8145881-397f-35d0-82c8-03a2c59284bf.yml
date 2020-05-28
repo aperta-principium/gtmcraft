@@ -1,15 +1,15 @@
 lastAccountName: Ciki5000
 timestamps:
-  login: 1590593006983
-  logout: 1590593206077
+  login: 1590674770930
+  logout: 1590675031140
 ipAddress: 0:0:0:0:0:0:0:1
 logoutlocation:
   world: smrkovec
-  x: -521.6110131250068
+  x: -569.0301501451607
   y: 69.0
-  z: -2461.3664329516255
-  yaw: -254.59247
-  pitch: 16.500105
+  z: -2457.463415951345
+  yaw: 1.7627696
+  pitch: -14.100042
 lastlocation:
   world: smrkovec
   x: -575.3946374831218
