@@ -1,17 +1,17 @@
 lastAccountName: adam_skrr
 timestamps:
   login: 1590693717353
-  logout: 1590595387628
+  logout: 1590695426260
   lastteleport: 1590676694991
   mute: 0
 ipAddress: 25.130.9.170
 logoutlocation:
   world: survival
-  x: 71.5066691247686
-  y: 62.07326471152709
-  z: -2457.276737649793
-  yaw: 224.5471
-  pitch: 29.400005
+  x: -331.3267552476999
+  y: 71.0
+  z: -887.9087079063257
+  yaw: 103.03845
+  pitch: 56.84992
 lastlocation:
   world: survival
   x: -341.2069997153617
