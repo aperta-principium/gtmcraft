@@ -1,17 +1,17 @@
 lastAccountName: mackcz
 timestamps:
-  login: 1590232158492
-  logout: 1590232451259
+  login: 1590782871105
+  logout: 1590783707554
   lastteleport: 1590232341252
   mute: 0
 ipAddress: 127.0.0.1
 logoutlocation:
   world: survival
-  x: -737.2036129569761
-  y: 71.0
-  z: -244.62627074053347
-  yaw: 191.0
-  pitch: 90.0
+  x: -718.2369225410803
+  y: 6.0
+  z: -245.28240533817845
+  yaw: -53.39209
+  pitch: -9.749483
 lastlocation:
   world: survival
   x: -707.3624121461638
