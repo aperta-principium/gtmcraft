@@ -1,8 +1,8 @@
 lastAccountName: zuziana
 timestamps:
-  login: 1590666977533
+  login: 1591027625174
   lastteleport: 1589800733309
-  logout: 1590668564811
+  logout: 1591028072123
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: survival
@@ -21,8 +21,8 @@ homes:
     pitch: 23.399967
 logoutlocation:
   world: survival
-  x: -1010.5419449508908
+  x: -1009.7497808909393
   y: 63.0
-  z: 230.34452763196083
-  yaw: -339.05817
-  pitch: 47.55003
+  z: 230.97225382515748
+  yaw: -8.758057
+  pitch: 6.3000555
