@@ -793,3 +793,142 @@ java.lang.IllegalArgumentException: Can not set final org.bukkit.craftbukkit.v1_
 [14:45:47] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
 [14:47:43] [Server thread/WARN]: adam_skrr moved too quickly! -13.094332309589504,2.975575911786308,3.4762053130840513
 [14:51:19] [Server thread/INFO]: adam_skrr issued server command: /home
+[14:57:12] [Server thread/INFO]: adam_skrr issued server command: /home
+[14:57:15] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[15:08:14] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[16:38:43] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[16:49:14] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[17:17:07] [Server thread/INFO]: adam_skrr lost connection: Disconnected
+[17:17:08] [Server thread/INFO]: adam_skrr left the game
+[19:05:48] [User Authenticator #2/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
+[19:05:55] [Server thread/INFO]: adam_skrr[/25.130.9.170:50010] logged in with entity id 17878 at ([survival]-345.0277464104064, 146.0, -208.50412710014177)
+[19:05:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6332ms or 126 ticks behind
+[19:06:08] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[19:10:40] [Server thread/INFO]: adam_skrr issued server command: /home
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:16:24] [Server thread/WARN]: Boat moved wrongly!
+[19:17:29] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[19:22:43] [Server thread/INFO]: adam_skrr issued server command: /JGOHME
+[19:22:46] [Server thread/INFO]: adam_skrr lost connection: Disconnected
+[19:22:46] [Server thread/INFO]: adam_skrr left the game
+[19:23:12] [User Authenticator #3/INFO]: UUID of player adam_skrr is 07b5407f-9eb6-3a9c-936a-cdbae45b9ad6
+[19:23:12] [Server thread/INFO]: adam_skrr[/25.130.9.170:50178] logged in with entity id 21413 at ([survival_nether]-101.69999998807907, 60.0, 345.3880470388936)
+[19:23:15] [Server thread/INFO]: adam_skrr issued server command: /HOME
+[19:23:29] [Server thread/INFO]: adam_skrr was burned to death
+[19:23:35] [Server thread/INFO]: adam_skrr issued server command: /HOME
+[19:26:01] [Server thread/INFO]: adam_skrr issued server command: /HOEM
+[19:26:03] [Server thread/INFO]: adam_skrr issued server command: /HOME
+[19:29:24] [Server thread/INFO]: adam_skrr issued server command: /home
+[19:29:26] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[19:33:51] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'lobby'. Please double check your `worlds.yml` file configuration!
+[20:00:38] [Server thread/INFO]: adam_skrr issued server command: /home
+[20:00:40] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[20:08:22] [Server thread/INFO]: adam_skrr issued server command: /home
+[20:12:11] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[20:33:59] [Server thread/INFO]: adam_skrr issued server command: /home
+[20:44:40] [Server thread/INFO]: adam_skrr issued server command: /home
+[20:44:50] [Server thread/INFO]: Enough players are sleeping, waking everybody up![m
+[20:45:38] [Server thread/INFO]: adam_skrr lost connection: Disconnected
+[20:45:39] [Server thread/INFO]: adam_skrr left the game
+[20:58:22] [Server thread/INFO]: Stopping the server
+[20:58:22] [Server thread/INFO]: Stopping server
+[20:58:22] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.1.0-b763
+[20:58:23] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[20:58:23] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.1
+[20:58:23] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.1.0-b805
+[20:58:23] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.3.34
+[20:58:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[20:58:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:58:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[20:58:25] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.1
+[20:58:25] [Server thread/INFO]: [SetLobby] Disabling SetLobby v1.1
+[20:58:25] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.2
+[20:58:25] [Server thread/INFO]: [MCRealTime] Disabling MCRealTime v3.3
+[20:58:25] [Server thread/INFO]: §cTimeServer stopped !
+[20:58:25] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
+[20:58:25] [Server thread/INFO]: [Fly] Disabling Fly v2.0
+[20:58:25] [Server thread/INFO]: [Fly] Plugin is shutting down
+[20:58:25] [Server thread/INFO]: [PerWorldPlugins] Disabling PerWorldPlugins v1.3.0
+[20:58:25] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[20:58:25] [Server thread/INFO]: [TabDeathCount] Disabling TabDeathCount v0.1.4
+[20:58:25] [Server thread/ERROR]: Error occurred while disabling TabDeathCount v0.1.4 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at io.github.brkalmar.bukkit.tabdeathcount.TabDeathCount.onDisable(TabDeathCount.java:65) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at me.incomprehendable.dev.pwp.transparentlisteners.PerWorldPluginLoader.disablePlugin(PerWorldPluginLoader.java:136) [PerWorldPlugins.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:430) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:396) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:699) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:689) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:864) [spigot.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[20:58:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[20:58:26] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.3
+[20:58:26] [Server thread/INFO]: HealthBar disabled, all the health bars have been removed.
+[20:58:26] [Server thread/INFO]: [FastLeafDecay] Disabling FastLeafDecay v1.0
+[20:58:26] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
+[20:58:26] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[20:58:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:58:27] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.52
+[20:58:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[20:58:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:58:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:58:29] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:58:29] [Server thread/INFO]: [Sleepy] Disabling Sleepy v1.3b
+[20:58:29] [Server thread/INFO]: Saving players
+[20:58:29] [Server thread/INFO]: Saving worlds
+[20:58:29] [Server thread/INFO]: Saving chunks for level 'lobby'/minecraft:overworld
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'lobby_nether'/minecraft:the_nether
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'lobby_the_end'/minecraft:the_end
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'smrkovec_nether'/minecraft:smrkovec_nether
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'survival'/minecraft:survival
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'survival_the_end'/minecraft:survival_the_end
+[20:58:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:30] [Server thread/INFO]: Saving chunks for level 'creative'/minecraft:creative
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'lobbyp'/minecraft:lobbyp
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobbyp): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'survival_nether'/minecraft:survival_nether
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:world
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:world_the_end
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'smrkovec_the_end'/minecraft:smrkovec_the_end
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:world_nether
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:31] [Server thread/INFO]: Saving chunks for level 'smrkovec'/minecraft:smrkovec
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (smrkovec): All chunks are saved
+[20:58:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[20:58:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[20:58:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved
+[20:58:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobbyp): All chunks are saved
+[20:58:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:58:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:58:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (smrkovec): All chunks are saved
