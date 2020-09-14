@@ -1,24 +1,24 @@
 lastAccountName: mackcz
 timestamps:
-  login: 1594213928133
-  logout: 1594214279666
-  lastteleport: 1590232341252
+  login: 1598712595618
+  logout: 1598713929649
+  lastteleport: 1598713680043
   mute: 0
 ipAddress: 127.0.0.1
 logoutlocation:
   world: survival
-  x: 272.03439206910775
-  y: 77.0
-  z: 989.3000000119209
-  yaw: 255.60745
-  pitch: 12.600005
+  x: -689.5124999880791
+  y: 194.0
+  z: -329.4013859368581
+  yaw: 4.890381
+  pitch: 36.449314
 lastlocation:
-  world: survival
-  x: -707.3624121461638
-  y: 6.0
-  z: -234.80542218880979
-  yaw: 135.0
-  pitch: 90.0
+  world: survival_nether
+  x: -134.36274415259498
+  y: 38.0
+  z: -83.4905260496499
+  yaw: -265.636
+  pitch: 8.249731
 afk: false
 nickname: Filip
 socialspy: false

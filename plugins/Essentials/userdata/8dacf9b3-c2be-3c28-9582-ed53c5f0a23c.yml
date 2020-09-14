@@ -1,24 +1,24 @@
 lastAccountName: MydadfailNNN
 timestamps:
-  login: 1598263026206
-  logout: 1598263144214
+  login: 1600103327870
+  logout: 1600104031707
   lastteleport: 1590522609468
 ipAddress: 0:0:0:0:0:0:0:1
 logoutlocation:
   world: smrkovec
-  x: -474.30000001192093
-  y: 81.0
-  z: -2739.311451622539
-  yaw: -129.59712
-  pitch: 16.60733
+  x: -518.7737261815985
+  y: 69.0
+  z: -2459.536415888536
+  yaw: 95.79669
+  pitch: 10.661917
 nickname: Alwin
 lastlocation:
-  world: smrkovec
-  x: -469.69999998807907
-  y: 84.0
-  z: -2808.668276517057
-  yaw: -266.03003
-  pitch: -38.452114
+  world: smrkovec_nether
+  x: -409.93006515139973
+  y: 50.36028210573255
+  z: 2072.3267049845185
+  yaw: -51.615047
+  pitch: 13.390598
 afk: false
 homes:
   mydadfailnnn:
